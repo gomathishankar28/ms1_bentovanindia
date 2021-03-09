@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
 
 body {
@@ -6,24 +5,22 @@ body {
     border: 0;
     padding: 0;
     background: transparent;
-    font-family: 'Akaya Telivigala', cursive;
+    font-family: 'Akaya Telivigala', cursive, sans-serif;
     font-weight: 300;
     font-size: 16px;
 }
-.row {
+/*--.row {
     margin: 0;
-}
+}--*/
 /*------title and nav bar styles----------------------*/
 .navbar {
     padding: 0;
     margin-left: 0!important;
     border: 0;
     background-color: #faba03!important;
-   
 }
 .navbar-brand {
     color: black!important;
-    
 }
 .navbar-toggler .navbar-toggler-icon {
     color: black!important;
@@ -36,8 +33,9 @@ body {
 .navbar-item a {
     color: black!important;
     font-size: 20px;
-    
-    
+}
+.nav-link:hover {
+  border-bottom: 1px solid black;
 }
 
 
@@ -48,7 +46,8 @@ body {
     
 }
 .jumbotron-btn {
-    font-family: 'Akaya Telivigala', cursive;
+    font-family: 'Akaya Telivigala', cursive, sans-serif;
+    font-weight: 300;
     font-weight: 700;
 }
 
@@ -69,6 +68,9 @@ body {
     padding: 0;
     color: white;
     
+}
+.jumbotron-btn:hover {
+    transform: scale(1.25);
 
 }
 /*-------------WHY_BVI styles--------------------------*/
@@ -97,7 +99,7 @@ body {
 .feature-header {
     font-size: 16px;
     font-weight: 500;
-    font-family: 'Akaya Telivigala', cursive;
+    
 }
 .feature-text {
     font-size: 16px;
@@ -229,7 +231,7 @@ body {
 .social-links i {
     color: #faba03;
     font-size: 20px;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
 }
 .footer-ul {
     list-style-type: none;
