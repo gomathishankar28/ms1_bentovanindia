@@ -176,7 +176,7 @@ the order will be confirmed via watsapp to them.
 
 ## **Testing**
 
-Testing information can be found in separate TESTING.md file
+Testing information yet to be done.
 
 ## **Deployment**
 

@@ -11,31 +11,35 @@
 </head>
 <body>
     <article>
-    <section class="brand-menu">
+    <!----------------------------------Title and Navbar----------------------------------- -->
+        <section>
         <nav class="navbar navbar-expand-md navbar-light bg-dark ml-auto">
+
+            <!----------------------------------Brand Title on top left----------------------------------------->
             <a class="navbar-brand" href="index.html">
                     <h1>BentoVanIndia</h1>
                     <h5>A thought from Inside the Box</h5>
             </a>
-     <div class="col navbar-menu">
+            <!---------------------------Navigation menu bar on top right---------------------------------------->
+     <div class="col">
         <button type="button" class="navbar-toggler navbar-toggler-right toggler-collapsed" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav ml-auto">
                 <li class="navbar-item active">
-                    <a href="index_copy.html" class="nav-item nav-link  active">Home</a>
+                    <a href="index.html" class="nav-item nav-link">Home</a>
                 </li>
-                <li class="navbar-item active">
+                <li class="navbar-item">
                     <a href="about.html" class="nav-item nav-link">About</a>
                 </li>
-                <li class="navbar-item active">
+                <li class="navbar-item">
                     <a href="menu.html" class="nav-item nav-link">Menu</a>
                 </li>
-                <li class="navbar-item active">
+                <li class="navbar-item">
                     <a href="about.html#contact" class="nav-item nav-link">Contact</a>
                 </li>
-                <li class="navbar-item active">
+                <li class="navbar-item">
                 <button class="btn jumbotron-btn btn-dark shadow-none" data-toggle="modal" data-target="#ordernow">
                         Order Now</button>
                 </li>
@@ -43,7 +47,6 @@
             </div>
         </div>
         </nav>
-        
         </section>
         <!--./ title and navbar--> 
     <!--------Menu.html----------->
@@ -141,22 +144,27 @@
     </section>
     
     </article>
-  <footer>
+    <!--------------------------------------Footer------------------------------------------------------>
+   <footer>
         <div id="footer-details" class="row container-fluid">
-	        <div class="col-md-4">
-	            <h5>copyright 2021<h5>
+
+            <!----------------------Copyrgiht---------------->
+	        <div class="col-md-4 col-footer">
+	            <h5 class="text-center">copyright 2021</h5>
             </div>
-            <div class="col-md-4">
-                <h5 class="footer-title">Reach out to us</h5>
-                    <ul class="fa-ul">
+
+            <!----------------------Reach out to us---------------->
+            <div class="col-md-4 col-footer">
+                <h5 class="text-center">Reach out to us</h5>
+                    <ul class="footer-ul text-center">
                         <li>
-                             <span class="fa-li"><i class="fas fa-home"></i></span>132 Zanddreef -Eindhoven
+                             <span><i class="fas fa-home"></i></span>132 Zanddreef -Eindhoven
                         </li>
                         <li>
-                            <span class="fa-li"><i class="fas fa-phone"></i></span>+31 (0) 5551357
+                            <span><i class="fas fa-phone"></i></span>+31 (0) 5551241357
                         </li>
                         <li>
-                            <span class="fa-li"><i class="fas fa-at"></i></span>contactbvi@gmail.com
+                            <span><i class="fas fa-at"></i></span>contactbvi@gmail.com
                         </li>
                          <li>
                             <span class="fa-li"><i class="fas fa-map-marker-alt"></i></span>Eindhoven- The Netherlands
@@ -164,11 +172,11 @@
                      </ul>
             </div>
 
-      <!-- Social Media -->
+          <!-------------------------Social Links-------------- -->
 
-      <div class="col-md-4">
-        <h5 class="footer-titles">Follow us</h5>
-        <ul class="list-inline social-links">
+      <div class="col-md-4 col-footer">
+        <h5 class="text-center">Follow us</h5>
+        <ul class="list-inline social-links text-center">
           <li class="list-inline-item">
             <a target="_blank" href="https://www.instagram.com/">
               <i class="fab fa-instagram" aria-hidden="true"></i>
@@ -213,16 +221,17 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 
-<!--------modal----->
+<!------------------------------------------Modal for OrderNow------------------------------------------------------>
+<!--------------------------Code credit - Bootstrap documentation---------------------------------------------------->
+
 <div class="modal fade" id="ordernow" tabindex="-1" aria-labelledby="ordernow" style="display: none;" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <div class="text-center">
-                        
                         <h5 class="modal-title" id="cta-modal-title">Order Now</h5>
-                        <p class="modal-text1 text-muted text-style="italic">Planning for your office lunch has never been so easy....</p>
-			<p class="modal-text2">Place your order for a week of lunch-ness <emphasis>@ EUR60</emphasis></p>
+                        <p class="modal-text1 text-muted" text-style="italic"> Planning for your office lunch has never been so easy....</p>
+			            <p class="modal-text2">Place your order for a week of lunch-ness <emphasis>@ EUR60</emphasis></p>
                         <hr class="modal-hr">
                     </div>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -230,11 +239,11 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form method="POST" action="https://formdump.codeinstitute.net/">
+                    <form method="POST" action="https://formdump.codeinstitute.net/" onsubmit="return alert('Thankyou! Your order has been placed successfully.')">
                         <div class="form-group">
-                            <label for="fname">Name</label>
+                            <label for="name">Name</label>
                             <div>
-                                <input type="text" name="fname" class="form-control" id="fname" aria-describedby="Name" placeholder="Enter Name" required="">
+                                <input type="text" name="fname" class="form-control" id="name" aria-describedby="Name" placeholder="Enter Name" required="">
                             </div>
 			    <label for="mobile">Mobile number</label>
                             <div>
