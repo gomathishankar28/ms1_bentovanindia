@@ -9,11 +9,9 @@ body {
     background: transparent;
     font-family: 'Akaya Telivigala', cursive, sans-serif;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 18px;
 }
-.row {
-    margin: 0;
-}
+
 /*------title and nav bar styles----------------------*/
 .navbar {
     padding: 0;
@@ -23,22 +21,56 @@ body {
 }
 .navbar-brand {
     color: black!important;
+    padding-left: 2rem;
 }
+
 .navbar-toggler .navbar-toggler-icon {
     color: black!important;
 }
 .navbar-item {
     margin-right: 10px;
-     
+     color: black;
 }
 .navbar-item a {
-    color: black!important;
+    color: black;
     font-size: 20px;
     
 }
+.active {
+    background-color: black;
+    color: #fdf9fd!important;
+}
+
 .nav-link:hover {
     background-color: black;
     color: #fff!important;
+}
+
+@media (min-width: 280px) and (max-width: 414px) {
+    .brandname {
+        font-size: 22px;
+        font-weight: 700;
+    
+    }
+    .brandtext {
+        font-size: 14px;
+    
+    }
+}
+@media (min-width: 1200px)  {
+.navright {
+    padding-left: 800px;
+}
+}
+@media (min-width: 1024px)  {
+.navright {
+    padding-left: 300px;
+}
+}
+@media (min-width: 768px)  {
+.navright {
+    padding-left: 50px;
+}
 }
 
 /*-------------Call out styles--------------------------*/
@@ -73,6 +105,12 @@ body {
     transform: scale(1.25); /* reference w3schools*/
 
 }
+@media (min-width: 768px) {
+    .jumbotron-header {
+        font-size: 36px;
+    }
+}
+
 /*-------------WHY_BVI styles--------------------------*/
 .features-container {
     background-color: #333541;
@@ -90,12 +128,13 @@ body {
     padding-top: 10px;  
 }
 .row-features {
-    margin-top: 30px;
-    margin-bottom: 30px;
-
+    margin: 1rem;
+}
+.features-column {
+    padding: 1rem;
 }
 .feature-header {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     
 }
@@ -119,9 +158,12 @@ body {
     transform: scale(1.15); /* (code reference from CSS)*/
     box-shadow: 0 0 0 4px rgb(234 165 11 / 83%);
 }
+.cta-about{
+    text-align: center;
+}
 .btn-about {
-    margin-left: 3rem;
-    margin-bottom: 20px;
+    /*margin-left: 3rem;*/
+    margin-bottom: 2rem;
     background: #faba03;
 }
 .btn-about a {
@@ -129,12 +171,15 @@ body {
     color: #212529;
     font-weight: 700;
 }
-@media (min-width: 540px) {
-    .btn-about {
-        margin-left: 10rem;
+@media (min-width: 768px) and (max-width: 1024px) {
+    .row-feature {
+        margin: 0.25rem;
     }
+    .features-column {
+    padding: 0.25rem;
 }
-@media (min-width: 768px) {
+}
+/*@media (min-width: 768px) {
     .btn-about {
         margin-left: 15rem;
     }
@@ -148,13 +193,27 @@ body {
     .btn-about {
         margin-left: 35rem;
     }
-}
+}*/
 /*-------------Our Process styles-------------------*/
 
 .process-container {
     background-color: #e9ecef;
 }
 .process-header {
+    text-align: center;
+    padding: 2rem;
+}
+.process {
+    padding: 1rem 3rem;
+    
+}
+.process-steps {
+    text-align: left;
+    padding: 2rem;
+    color: #212529;
+}
+
+/*.process-header {
     margin-left: 1rem;
     padding: 1rem;
 }
@@ -172,6 +231,8 @@ body {
     height:400px; 
     overflow:hidden;
     position:relative;
+    
+    
      }
 .slide-images img{ 
     position:absolute; 
@@ -179,6 +240,8 @@ body {
     opacity:0; 
     width: 450px; 
     height: 350px;
+    text-align: center;
+    padding-left: 1rem;
 }
 
 @keyframes slide-images {25%{opacity:1;} 40%{opacity:0;}}
@@ -186,19 +249,6 @@ body {
 .slide-images img:nth-child(2){animation-delay:5s;}
 .slide-images img:nth-child(3){animation-delay:10s;}
 .slide-images img:nth-child(4){animation-delay:15s;}
-
-@media (min-width: 1025px) {
-    .steps-text {
-        margin-top: 3rem;
-        font-size: 24px;
-        font-weight: 500;
-    }
-    .steps-text {
-        margin-top: 2rem;
-        font-size: 22px;
-        
-    }
-}
 
 @media (min-width: 280px) and (max-width: 415px) {
     .slide-images {
@@ -214,25 +264,52 @@ body {
 }
 }
 
+/*@media (min-width: 1025px) {
+    .steps-text {
+        margin-top: 3rem;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .steps-text {
+        margin-top: 2rem;
+        font-size: 22px;
+        
+    }
+}*/
+
 /*-------------Testimonials--------------------------*/
 .testimonials {
     background-color: #faba03;
 }
 .testimonials-header {
-    text-transform: uppercase;
-    color: #fff;
-    padding-top: 10px;
-    color: #424355;    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;   
 }
 .testimonials-header h2 { 
+    text-transform: uppercase;
+    color: #424355; 
     font-size: 24px;
     font-weight: 700;
     text-align: center;
 }
-.testimonies {
-    padding: 1rem;      
+.testimony {
+    text-align: center;
 }
-.testimony1 {
+.testimony img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 0 10px;
+    margin-left: 3.5rem;
+}
+.testimonies{
+    padding: 2rem;      
+}
+.user-details {
+    font-weight: 500;
+}
+/*.testimony1 {
     border-right: 1px solid black;
 }
 .testimony1 img {
@@ -249,9 +326,7 @@ body {
     margin-top: 0 10px;
     margin-left: 3.5rem;
 }
-.user-details {
-    font-weight: 500;
-}
+
 @media (min-width: 280px) and (max-width: 540px){
     .testimony1 {
     border-right: none;
@@ -278,11 +353,11 @@ body {
 .testimony2 img{
     margin-left: 7rem;
 }
-}
+}*/
 
 /*-------------Footer styles--------------------------*/
 
-#footer-details {
+.footer-details {
     background-color: #343a40;
     color: white;   
 }
@@ -319,23 +394,27 @@ body {
 .modal-text1 {
     font-size: 16px;
     font-style: italic;
-   
+    margin-left: 2rem;
 }
 .modal-text2 {
     font-size: 18px;
+    margin-left: 2rem;
     
 }
 .modal-text2 emphasis {
     background-color: black;
     color: #fff;
+    
 }
-.modal-hr {
-    width: 100%;
-    border: 1px solid black;
+.modal-label {
+    margin-left: 1rem;  
+}
+.modal-input {
+    margin-bottom: 1rem;  
 }
 .claim-button {
     text-align: center;
-    margin-left: 3rem;
+    margin-left: 2rem;
     text-transform: uppercase;
 }
 
@@ -343,106 +422,101 @@ body {
 /*------------ about us background-----------------*/
 .about-container {
     background-image: url(../images/about-us.jpg);
-    
-background-position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
-    height: 820px;
-    width:100%;
-    padding: 0;
-    margin: 0;
-    border: 0;
-    
-}
-
-.about-us {
-    background: rgb(30 0 10 / 50%);
-    margin-top: 30px;
-    color: #e9ecef;
-    font-size: 24px;
-}
-
-.about-text {
-    margin-left: 1rem;
-    margin-right: 2rem;
-    margin-top: 1rem;
-    text-align: center;
-    color: #e9ecef;
-    text-align: left;
-    font-size: 14px;
-    
-}
-
-/*-------------------Contact styles----------------*/
-.contact-container {
-    background-image: url(../images/about-us.jpg);
     background-position: relative;
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
-    height: 732px;
+    height: auto;
     width:100%;
     padding: 0;
     margin: 0;
-    border: 0;
+    border: 0;  
+}
+
+.about-us {
+    background: rgb(30 0 10 / 50%);
+    color: #e9ecef;
+    font-size: 24px;
+    padding-top: 2rem;
+}
+.about-text {
+    padding: 1rem;
+    color: #e9ecef;
+    text-align: left;
+    font-size: 18px;   
+}
+
+/*-------------------Contact styles----------------*/
+.contact-container {
+    background-color: rgb(30 0 10 / 66%);
+    color: #fff;
+    font-size: 18px;
+    /*background-position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    height: auto;
+    width:100%;
+    padding: 0;
+    margin: 0;
+    border: 0;*/
+}
+.contact-header {
+    padding: 2rem;
+}
+.details-form {
+    padding-bottom: 3rem;
 }
 .contact-details {
-    padding-top: 1rem;
-    background-color: rgb(30 0 10 / 50%);
+    
+    /*background-color: rgb(30 0 10 / 77%);*/
     text-align: center;
     color: #e9ecef;
     
 }
 .contact-details p {
-    font-size: 16px;
+    font-size: 18px;
   
 }
-
 .contact-info a {
-    color: #e9ecef;
-    
+    color: #e9ecef;  
 }
 
 .opening-hours {
     margin-left: 1rem;
-    
-    
+   
 }
 .opening-hours p {
-    font-size: 16px;
+    font-size: 18px;
     font-style: Bold;
     
 }
 .contact-form {
     color: #fff;
-    background-color: rgb(30 0 10 / 50%);
+    /*background-color: rgb(30 0 10 / 50%);*/
     padding: 1rem;
     text-align: center;  
 }
 .contact-form h3 {
-    padding: 1rem;
-    
+    padding: 1rem;  
 }
 .contact-input {
     text-align: center;
     font-size: 16px;
     font-style: Bold;
-    width: 230px;
+    width: 250px;
     margin-bottom: 1rem;
     background-color: #f6f1ea;
     color: #343a40;
     
 }
-    
-
 .contact-textarea {
     text-align: center;
     font-size: 14px;
     font-style: Bold;
-    width: 230px;
+    width: 250px;
     height:100px;
     padding: 1rem;
     background-color: #f6f1ea;
@@ -474,8 +548,8 @@ textarea:hover {
 }
 /*-------media queries for about------*/
 
-@media (min-width: 280px) and (max-width: 320px) {
-    .about-text {
+/*@media (min-width: 280px) and (max-width: 320px) {
+    .about-container{
         font-size: 12px;
     }
 }
@@ -534,15 +608,18 @@ textarea:hover {
     padding-top: 3rem;
     
 }
-}
-
-
-/*-----------------media queries-----------------*/
-
-
-
+}*/
 /*-----------------menu.html-----------------*/
-.menu {
+.menu-header h2 {
+    padding: 2rem;
+}
+.menu-items h3 {
+    padding: 2rem;
+}
+.menu-images img {
+    padding: 2rem;
+}
+/*.menu {
     padding-left: 1rem;
     padding-right: 1rem;
 }
@@ -573,16 +650,19 @@ textarea:hover {
 }
 @media (max-width: 280px) {
   .menu-header h2 {
-      margin-left: 1rem;
+      margin-left: -1rem;
   } 
-  @media (max-width: 360px) {
+}
+@media (max-width: 360px) {
   .menu-header h2 {
       margin-left: 4rem;
   } 
-  @media (min-width: 360px) and (max-width: 414px) {
+}
+@media (min-width: 360px) and (max-width: 414px) {
   .menu-images {
       margin-left: 2rem;
   }  
+}
 @media (min-width: 520px) and (max-width: 760px) {
   .menu-header h2 {
       margin-left: 2rem;
@@ -595,16 +675,15 @@ textarea:hover {
   }  
   
 }
-
 @media (min-width: 1024px) {
   .menu-header h2 {
-      margin-left: 30rem;
+      margin-left: 40rem;
   } 
   .menu-text {
       margin-left: 10%;
       margin-right: 10%;
   }
-}
+}*/
 
 
 

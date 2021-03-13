@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <article>
+    
     <!----------------------------------Title and Navbar----------------------------------- -->
         <section>
         <nav class="navbar navbar-expand-md navbar-light bg-dark ml-auto">
@@ -27,14 +27,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav ml-auto">
-                <li class="navbar-item active">
+                <li class="navbar-item">
                     <a href="index.html" class="nav-item nav-link">Home</a>
                 </li>
                 <li class="navbar-item">
                     <a href="about.html" class="nav-item nav-link">About</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="menu.html" class="nav-item nav-link">Menu</a>
+                    <a href="menu.html" class="nav-item nav-link active">Menu</a>
                 </li>
                 <li class="navbar-item">
                     <a href="about.html#contact" class="nav-item nav-link">Contact</a>
@@ -51,18 +51,21 @@
         <!--./ title and navbar--> 
     <!--------Menu.html----------->
 <section id="menu">
-    <div class="menu-header">
-        <h2> Our Menu</h2>
+    <div class="container-fluid menu-container">
+        <div class="row">
+    <div class=" col menu-header">
+        <h2 class="text-center"> Our Menu</h2>
  	        <p class="menu-text">
             We have carefully designed our menu in such a way that we provide a well- balanced nutritious meal.
             our meal is packed with right amount carbohydrates, protein vitamins, 
             fibre and fat to create a wholesome meal for just 60 euros per week.
             Our Bento contains an item from each of the 4 sections shown below.</p>
     </div>
+</div>
         <!--------Breads------------->
         <div class="row breads">
             <div class="col menu-items">
-                <h3> Indian Flat breads </h3>
+                <h3 class="text-center"> Indian Flat breads </h3>
             </div>
         </div>
         <div class="row menu-images">
@@ -82,7 +85,7 @@
         <!--------Lentils/pulses curry------------->
         <div class="row lentils">
             <div class="col menu-items">
-                <h3> Lentils/Pulses curries </h3>
+                <h3 class="text-center"> Lentils/Pulses curries </h3>
             </div>
         </div>
         <div class="row menu-images">
@@ -102,7 +105,7 @@
          <!--------Vegetable curries------------->
         <div class="row veggies">
             <div class="col menu-items">
-                <h3> Vegetable curries </h3>
+                <h3 class="text-center"> Vegetable curries </h3>
             </div>
         </div>
         <div class="row menu-images">
@@ -122,7 +125,7 @@
           <!--------Rice Varieties------------->
         <div class="row rice">
             <div class="col menu-items">
-                <h3> Rice Varieties </h3>
+                <h3 class="text-center"> Rice Varieties </h3>
             </div>
         </div>
         <div class="row menu-images">
@@ -139,18 +142,24 @@
                      <img src="assets/images/rice4.jpg" alt="rice">
                 </div>
         </div>
-         
+        </div>
+        
          
     </section>
     
-    </article>
+    
     <!--------------------------------------Footer------------------------------------------------------>
-   <footer>
-        <div id="footer-details" class="row container-fluid">
+    <footer>
+        <div class="container-fluid footer-container">
+        <div class="row footer-details">
 
             <!----------------------Copyrgiht---------------->
 	        <div class="col-md-4 col-footer">
-	            <h5 class="text-center">copyright 2021</h5>
+                <h5 class="text-center">copyright 2021</h5>
+                <h6 class="text-center"><u>Opening Hours</u><br>
+                 Mon-Fri from 8 am to 5 pm<br>
+                 Closed on Weekends<br>
+                </h6>
             </div>
 
             <!----------------------Reach out to us---------------->
@@ -158,16 +167,16 @@
                 <h5 class="text-center">Reach out to us</h5>
                     <ul class="footer-ul text-center">
                         <li>
-                             <span><i class="fas fa-home"></i></span>132 Zanddreef -Eindhoven
+                             <span><i class="fas fa-home"></i> :  132 Zanddreef -Eindhoven</span>
                         </li>
                         <li>
-                            <span><i class="fas fa-phone"></i></span>+31 (0) 5551241357
+                            <span><i class="fas fa-phone"></i> :  +31 (0) 5551241357</span> 
                         </li>
                         <li>
-                            <span><i class="fas fa-at"></i></span>contactbvi@gmail.com
+                            <span><i class="fas fa-at"></i> :   contactbvi@gmail.com</span>
                         </li>
                          <li>
-                            <span class="fa-li"><i class="fas fa-map-marker-alt"></i></span>Eindhoven- The Netherlands
+                            <span><i class="fas fa-map-marker-alt"></i> :   Eindhoven- The Netherlands</span>
                         </li>
                      </ul>
             </div>
@@ -212,9 +221,8 @@
         </ul>
       </div>
     </div>
-
+</div>
     </footer>
-
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

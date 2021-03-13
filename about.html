@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <article>
+    
    <!----------------------------------Title and Navbar----------------------------------- -->
         <section>
         <nav class="navbar navbar-expand-md navbar-light bg-dark ml-auto">
@@ -28,11 +28,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav ml-auto">
-                <li class="navbar-item active">
+                <li class="navbar-item">
                     <a href="index.html" class="nav-item nav-link">Home</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="about.html" class="nav-item nav-link active">About</a>
                 </li>
                 <li class="navbar-item">
                     <a href="menu.html" class="nav-item nav-link">Menu</a>
@@ -51,10 +51,11 @@
         </section>
         <!--./ title and navbar--> 
 
+        <article>
         <!-About us--> 
         <div class="container-fluid about-container">
         <div class="row">
- 	        <div class="col-lg-12 about-us">
+ 	        <div class="col about-us">
                 
                     <h2 class="about-header text-center"><strong>About Us</strong></h2>
                     <p class="about-text">
@@ -93,16 +94,22 @@
             </div> 
             </div>
             </div>
+        </article>
 
       <!-Contact us--> 
          <section id="contact">
             <div class="container-fluid contact-container">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="contact-header text-center">Contact us</h2>
+                    </div>
+                </div>
                 
                 <div class="row details-form">
                     <div class="col-md-4 contact-details"> 
                         <div class="contact-bg">
                         <div class="contact-us">
-                            <h3 class="contact-header">Contact us</h3>
+                            <h3 class="contact-header">Contact details</h3>
                             <p class="contact-info"><strong><i class="fas fa-envelope-square"></i>   : contact@bvi.com</strong></p>
                             <p class="contact-info"><strong><i class="fas fa-phone-square-alt"></i>  : 555-724-1357</strong></p>
                             <p class="contact-info"><strong><i class="fas fa-map-marker-alt"></i><a href="https://www.google.com/maps/place/Zanddreef+132,+5658+AG+Eindhoven/@51.4473375,5.4047341,17z/data=!3m1!4b1!4m5!3m4!1s0x47c6dbb8a3e8a9e3:0xf4839a2e57485bdc!8m2!3d51.4473375!4d5.4069228">   Zanddreef 132, Eindhoven</a></strong></p>
@@ -131,14 +138,19 @@
             </div>
 
 </section>
-  </article> 
-  <!--------------------------------------Footer------------------------------------------------------>         
- <footer>
-        <div id="footer-details" class="row container-fluid">
+  
+<!--------------------------------------Footer------------------------------------------------------>
+    <footer>
+        <div class="container-fluid footer-container">
+        <div class="row footer-details">
 
             <!----------------------Copyrgiht---------------->
 	        <div class="col-md-4 col-footer">
-	            <h5 class="text-center">copyright 2021</h5>
+                <h5 class="text-center">copyright 2021</h5>
+                <h6 class="text-center"><u>Opening Hours</u><br>
+                 Mon-Fri from 8 am to 5 pm<br>
+                 Closed on Weekends<br>
+                </h6>
             </div>
 
             <!----------------------Reach out to us---------------->
@@ -146,16 +158,16 @@
                 <h5 class="text-center">Reach out to us</h5>
                     <ul class="footer-ul text-center">
                         <li>
-                             <span><i class="fas fa-home"></i></span>132 Zanddreef -Eindhoven
+                             <span><i class="fas fa-home"></i> :  132 Zanddreef -Eindhoven</span>
                         </li>
                         <li>
-                            <span><i class="fas fa-phone"></i></span>+31 (0) 5551241357
+                            <span><i class="fas fa-phone"></i> :  +31 (0) 5551241357</span> 
                         </li>
                         <li>
-                            <span><i class="fas fa-at"></i></span>contactbvi@gmail.com
+                            <span><i class="fas fa-at"></i> :   contactbvi@gmail.com</span>
                         </li>
                          <li>
-                            <span><i class="fas fa-map-marker-alt"></i></span>Eindhoven- The Netherlands
+                            <span><i class="fas fa-map-marker-alt"></i> :   Eindhoven- The Netherlands</span>
                         </li>
                      </ul>
             </div>
@@ -200,7 +212,7 @@
         </ul>
       </div>
     </div>
-
+</div>
     </footer>
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

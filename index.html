@@ -10,25 +10,24 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <article>
-        <!----------------------------------Title and Navbar----------------------------------- -->
+    <!----------------------------------Title and Navbar----------------------------------- -->
         <section>
         <nav class="navbar navbar-expand-md navbar-light bg-dark ml-auto">
 
             <!----------------------------------Brand Title on top left----------------------------------------->
             <a class="navbar-brand" href="index.html">
-                    <h1>BentoVanIndia</h1>
-                    <h5>A thought from Inside the Box</h5>
+                    <h1 class="brandname">BentoVanIndia</h1>
+                    <h5 class="brandtext">A thought from Inside the Box</h5>
             </a>
             <!---------------------------Navigation menu bar on top right---------------------------------------->
      <div class="col">
-        <button type="button" class="navbar-toggler navbar-toggler-right toggler-collapsed" data-toggle="collapse" data-target="#navbarCollapse">
+        <button type="button" class="navbar-toggler toggler-collapsed navbar-toggler-right" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto navright">
                 <li class="navbar-item active">
-                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
                 </li>
                 <li class="navbar-item">
                     <a href="about.html" class="nav-item nav-link">About</a>
@@ -47,7 +46,7 @@
             </div>
         </div>
         </nav>
-        </section>
+    </section>
         <!--./ title and navbar--> 
        
          <!--------------------------------- callout Section------------------------------------ -->
@@ -56,7 +55,7 @@
         
         <div class="row">
             <div class="col-12">
-                <section class="callout jumbotron text-center">
+                <div class="jumbotron callout text-center">
                     <h3 class="jumbotron-header">
                         A Wholesome vegetarian<br> 
                         gluten-free lunch delivered
@@ -64,7 +63,7 @@
                     </h3>
                     <button class="btn jumbotron-btn btn-warning shadow-none" data-toggle="modal" data-target="#ordernow">
                         Order Now</button>
-                </section>
+                    </div>
             </div>
         </div>
     </div>
@@ -153,7 +152,7 @@
                 </div>
             <!--CTA About Button-->
             <div class="row">
-                <div class="col">
+                <div class="col cta-about">
                         <button class="btn shadow-none btn-about"><a href="about.html">Know More About us</a>
                         </button>
                 </div>
@@ -163,24 +162,24 @@
         <!-- /.Why-BVI -->
 
         <!----------------------------------- Our process-------------------------------------------->
-        <section id="our_process">
+        <section class="our_process">
        <div class="contaner-fluid process-container">
            <div class="row">
                <div class="col">
-                        <h2 class="process-header text-center"> Our Process</h2>
+                        <h2 class="process-header"> Our Process</h2>
                 </div>
             </div>
            <div class="row process">
-               <div class="col-md-6 Process-steps">
-                   <h5 class="steps-text">We follow a simple 4 step process from planning to Delivery</h5>
-                            <p class="steps_desc">1. We decide on the menu for the entire  week by 
+               <div class="col-md-6">
+                   <h5 class="Process-steps steps-text">We follow a simple 4 step process from planning to Delivery</h5>
+                            <p class="Process-steps steps_desc">1. We decide on the menu for the entire  week by 
                              choosing one item from each section given in our Menu List.We use vegetables in season for veg curries.</p> 
                        
-                            <p>2. We receive orders from Monday 8 am untill 8 pm saturday every week for the following week.Any orders placed on sunday will not be considered.</p> 
+                            <p class="Process-steps steps_desc">2. We receive orders from Monday 8 am untill 8 pm saturday every week for the following week.Any orders placed on sunday will not be considered.</p> 
                        
-                            <p>3. As soon as the orders are placed, order confirmation will be sent via watsapp with name, date of order and delivery address</p> 
+                            <p class="Process-steps steps_desc">3. As soon as the orders are placed, order confirmation will be sent via watsapp with name, date of order and delivery address</p> 
                         
-                            <p>4. Between 11.30 to 12 pm ,the lunch gets delivered at your company's front office.</p> 
+                            <p class="Process-steps steps_desc">4. Between 11.30 to 12 pm ,the lunch gets delivered at your company's front office.</p> 
                     
                 </div>
             <!--------------------------Code credit- Hyde-design.co.uk-------------------->       
@@ -200,38 +199,49 @@
      
         <section class="testimonials">
       <div class="container-lg testimonials-container">
-          <div class="row testimonials-header">
-              <div class="col">
+          <div class="row">
+              <div class="col testimonials-header">
                 <h2 class="text-center"> Our Testimonials</h2>
               </div>
           </div>
-         <div class="row offset-1 testimonies">
-                <div class="col-md-5 testimony1">
-			        <img src="assets/images/testimony1.jpg" alt="man pic">
+         <div class="row testimonies">
+                <div class="col-md-4 testimony">
+			        <img src="assets/images/testimony2.jpg" alt="woman pic">
+                        <p>Food delivered is as close to Homemade as I can think of. I dont miss my mom's food anymore.It gets delivered on time at my office door step.Thank you guys!</p>
+                        
+                        <p class="user-details text-right"><b>-Akanksha.S</b></p>
+                    </div>
+                    <div class="col-md-4 testimony">
+                    <img src="assets/images/testimony1.jpg" alt="man pic">
                         <p>I dont waste time ordering food every weekday.All i have to do is order over the weekend and be relaxed for the rest of the week. </p>
                         
-                        <p class="user-details"><b>-Shankar.L</b></p>
+                        <p class="user-details text-right"><b>-Shankar.L</b></p>
                     </div>
-                    <div class="col-md-5 testimony2">
-                    <img src="assets/images/testimony2.jpg" alt="woman pic">
-                        <p>Food delivered is as close to Homemade as I can think of. I dont miss my mom's food anymore.Thank you guys!</p>
+                    <div class="col-md-4 testimony">
+                    <img src="assets/images/testimony3.jpg" alt="man pic">
+                        <p>Thank you for your food. It’s so fresh and delicious and it takes the work and guess-work out of my busy life when it comes to eating.</p>
                         
-                        <p class="user-details"><b>-Akanksha.s</b></p>
+                        <p class="user-details text-right"><b>-Sai Lakshmi.s</b></p>
                     </div>
                 </div>
             </div> 
         </section>
         <!-- /.Testimonials -->
 
-    </article>
+    
 
     <!--------------------------------------Footer------------------------------------------------------>
     <footer>
-        <div id="footer-details" class="row container-fluid">
+        <div class="container-fluid footer-container">
+        <div class="row footer-details">
 
             <!----------------------Copyrgiht---------------->
 	        <div class="col-md-4 col-footer">
-	            <h5 class="text-center">copyright 2021</h5>
+                <h5 class="text-center">copyright 2021</h5>
+                <h6 class="text-center"><u>Opening Hours</u><br>
+                 Mon-Fri from 8 am to 5 pm<br>
+                 Closed on Weekends<br>
+                </h6>
             </div>
 
             <!----------------------Reach out to us---------------->
@@ -239,16 +249,16 @@
                 <h5 class="text-center">Reach out to us</h5>
                     <ul class="footer-ul text-center">
                         <li>
-                             <span><i class="fas fa-home"></i></span>132 Zanddreef -Eindhoven
+                             <span><i class="fas fa-home"></i> :  132 Zanddreef -Eindhoven</span>
                         </li>
                         <li>
-                            <span><i class="fas fa-phone"></i></span>+31 (0) 5551241357
+                            <span><i class="fas fa-phone"></i> :  +31 (0) 5551241357</span> 
                         </li>
                         <li>
-                            <span><i class="fas fa-at"></i></span>contactbvi@gmail.com
+                            <span><i class="fas fa-at"></i> :   contactbvi@gmail.com</span>
                         </li>
                          <li>
-                            <span class="fa-li"><i class="fas fa-map-marker-alt"></i></span>Eindhoven- The Netherlands
+                            <span><i class="fas fa-map-marker-alt"></i> :   Eindhoven- The Netherlands</span>
                         </li>
                      </ul>
             </div>
@@ -293,7 +303,7 @@
         </ul>
       </div>
     </div>
-
+</div>
     </footer>
 
     <!--------------------------------Link to jquery,popper.js and bootstrapcdn--------------------------->
@@ -313,7 +323,7 @@
                         <h5 class="modal-title" id="cta-modal-title">Order Now</h5>
                         <p class="modal-text1 text-muted" text-style="italic"> Planning for your office lunch has never been so easy....</p>
 			            <p class="modal-text2">Place your order for a week of lunch-ness <emphasis>@ EUR60</emphasis></p>
-                        <hr class="modal-hr">
+                        
                     </div>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <i class="fas fa-times"></i>
@@ -322,24 +332,24 @@
                 <div class="modal-body">
                     <form method="POST" action="https://formdump.codeinstitute.net/" onsubmit="return alert('Thankyou! Your order has been placed successfully.')">
                         <div class="form-group">
-                            <label for="name">Name</label>
+                            <label class="modal-label" for="name">Name</label>
                             <div>
-                                <input type="text" name="fname" class="form-control" id="name" aria-describedby="Name" placeholder="Enter Name" required="">
+                                <input type="text" name="fname" class="form-control modal-input" id="name" aria-describedby="Name" placeholder="Enter Name" required="">
                             </div>
-			    <label for="mobile">Mobile number</label>
+			    <label class="modal-label" for="mobile">Mobile number</label>
                             <div>
-                                <input type="text" name="mobile" class="form-control" id="mobile" aria-describedby="Mobilenumber" placeholder="Enter Mobile number" required="">
+                                <input type="text" name="mobile" class="form-control modal-input" id="mobile" aria-describedby="Mobilenumber" placeholder="Enter Mobile number" required="">
                             </div>
-			   <label for="Email">Email address</label>
+			   <label class="modal-label" for="Email">Email address</label>
                             <div>
-                                <input type="email" name="email" class="form-control" id="Email" aria-describedby="Email" placeholder="Enter email" required="">
+                                <input type="email" name="email" class="form-control modal-input" id="Email" aria-describedby="Email" placeholder="Enter email" required="">
                             </div>
-			  <label for="office-address">Office address</label>
+			  <label class="modal-label" for="office-address">Office address</label>
                             <div>
-                                <input type="text" name="address" class="form-control" id="office-address" aria-describedby="office address" placeholder="Enter office address" required="">
+                                <input type="text" name="address" class="form-control modal-input" id="office-address" aria-describedby="office address" placeholder="Enter office address" required="">
                             </div>
                         </div>
-                        <div class="claim-button">
+                        <div class="claim-button text-center">
                             <button type="submit" class="btn claim-btn btn-dark shadow-none">Submit</button>
                         </div>
                     </form>
