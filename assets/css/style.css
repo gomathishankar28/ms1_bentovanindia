@@ -17,61 +17,127 @@ body {
     padding: 0;
     margin-left: 0!important;
     border: 0;
-    background-color: #faba03!important;
+    /*background-color: #faba03!important;*/
+}
+.bg-navbar {
+   background-color: #faba03!important; 
+   color: black!important;
 }
 .navbar-brand {
-    color: black!important;
     padding-left: 2rem;
 }
 
-.navbar-toggler .navbar-toggler-icon {
-    color: black!important;
-}
 .navbar-item {
-    margin-right: 10px;
-     color: black;
+    margin-right: 15px;      
 }
 .navbar-item a {
-    color: black;
-    font-size: 20px;
-    
+    font-size: 20px;  
 }
 .active {
     background-color: black;
     color: #fdf9fd!important;
 }
-
 .nav-link:hover {
     background-color: black;
     color: #fff!important;
 }
 
-@media (min-width: 280px) and (max-width: 414px) {
+@media (min-width: 280px) and (max-width: 415px) {
+    .navbar-brand {
+        padding-left: 0.5rem;
+    }
     .brandname {
-        font-size: 22px;
-        font-weight: 700;
-    
+        font-size: 18px;
     }
     .brandtext {
+        font-size: 16px;   
+    }
+    .navright {
+        margin-left: 0.5rem;
+    }
+    .navbar-item {
+        margin: 1px;
+    }
+    .navbar-item a {
         font-size: 14px;
-    
+         margin: 1px 0;
+}
+    .toggler-nav {
+        width: 60px;
+        height: auto;
+    }
+    .nav-item {
+        font-size: 14px;
+    }
+    .jumbotron-btn {
+        font-size: 14px!important;
+        font-weight: 300;
+    }
+    .btn {
+        padding: 0;
     }
 }
-@media (min-width: 1200px)  {
+
+@media (min-width: 1024px) {
 .navright {
-    padding-left: 800px;
+    margin-left: -1rem;
+}  
 }
+@media (min-width: 768px) {
+.toggler-nav{
+    padding-left: 3rem;
+}  
+.toggler-btn {
+        margin-left: 3rem;
+    }
 }
-@media (min-width: 1024px)  {
-.navright {
-    padding-left: 300px;
+@media (min-width: 280px) {
+    .toggler-nav {
+    margin-left: -1rem;
 }
+.toggler-btn {
+        margin-left: -0.5rem;
+    }
 }
-@media (min-width: 768px)  {
-.navright {
-    padding-left: 50px;
+@media (min-width: 320px) {
+    .toggler-nav {
+    margin-left: 0;
 }
+.toggler-btn {
+        margin-left: 0;
+    }
 }
+@media (min-width: 360px){
+    .toggler-nav {
+    margin-left: 1rem;
+}
+.toggler-btn {
+        margin-left: 1rem;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    .toggler-nav {
+    margin-left: 2rem;
+}
+.toggler-btn {
+        margin-left: 2rem;
+    }
+}
+@media (min-width: 411px) and (max-width: 414px) {
+    .toggler-nav {
+    margin-left: rem;
+}
+.toggler-btn {
+        margin-left: 3rem;
+    }
+     .brandname {
+        font-size: 20px;
+    }
+    .brandtext {
+        font-size: 18px;   
+    }
+}
+
 
 /*-------------Call out styles--------------------------*/
 .jumbotron-header {
@@ -80,7 +146,8 @@ body {
     
 }
 .jumbotron-btn {
-   font-weight: 700;
+   font-weight: 500;
+   font-size: 22px;
 }
 
 .callout-container {
@@ -162,7 +229,6 @@ body {
     text-align: center;
 }
 .btn-about {
-    /*margin-left: 3rem;*/
     margin-bottom: 2rem;
     background: #faba03;
 }
@@ -172,30 +238,33 @@ body {
     font-weight: 700;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-    .row-feature {
+    .row-features {
         margin: 0.25rem;
     }
     .features-column {
     padding: 0.25rem;
 }
 }
-/*@media (min-width: 768px) {
-    .btn-about {
-        margin-left: 15rem;
+@media (min-width: 768px) {
+    .feature-text {
+        font-size: 20px;
+    }
+    .cta-about a {
+        font-size: 18px;
     }
 }
-@media (min-width: 1024px) {
-    .btn-about {
-        margin-left: 25rem;
-    }
+@media (max-width: 280px) {
+    .row-features {
+        margin: 0.25rem;
+        padding: 0;
 }
-@media (min-width: 1200px) {
-    .btn-about {
-        margin-left: 35rem;
-    }
-}*/
-/*-------------Our Process styles-------------------*/
+.features-column {
+    margin: 0.25rem;
+    padding: 0;
+}
+}
 
+/*-------------Our Process styles-------------------*/
 .process-container {
     background-color: #e9ecef;
 }
@@ -204,7 +273,7 @@ body {
     padding: 2rem;
 }
 .process {
-    padding: 1rem 3rem;
+    padding: 0 3rem;
     
 }
 .process-steps {
@@ -213,27 +282,13 @@ body {
     color: #212529;
 }
 
-/*.process-header {
-    margin-left: 1rem;
-    padding: 1rem;
-}
-.process {
-    color: #212529;
-    margin-left: 1rem;
-}
-.steps_desc {
-     margin-top: 1rem;
-}
-
 /* code credit for image Slider from Hyde-Design */
 .slide-images {
     width:500px;
     height:400px; 
     overflow:hidden;
     position:relative;
-    
-    
-     }
+}
 .slide-images img{ 
     position:absolute; 
     animation:slide-images 20s infinite; 
@@ -264,18 +319,7 @@ body {
 }
 }
 
-/*@media (min-width: 1025px) {
-    .steps-text {
-        margin-top: 3rem;
-        font-size: 24px;
-        font-weight: 500;
-    }
-    .steps-text {
-        margin-top: 2rem;
-        font-size: 22px;
-        
-    }
-}*/
+
 
 /*-------------Testimonials--------------------------*/
 .testimonials {
@@ -309,51 +353,7 @@ body {
 .user-details {
     font-weight: 500;
 }
-/*.testimony1 {
-    border-right: 1px solid black;
-}
-.testimony1 img {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    margin-top: 0 10px;
-    margin-left: 3.5rem;
-}
-.testimony2 img {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    margin-top: 0 10px;
-    margin-left: 3.5rem;
-}
 
-@media (min-width: 280px) and (max-width: 540px){
-    .testimony1 {
-    border-right: none;
-}
-}
-@media (min-width: 768px){
-    .testimonies {
-    margin-left: 3rem;
-}
-.testimony2 {
-    margin-left: 3rem;
-}
-}
-@media (min-width: 1024px){
-    .testimonies {
-    margin-left: 3rem;
-}
-.testimony1 img {
-    margin-left: 7rem;
-}
-.testimony2 {
-    margin-left: 3rem;
-}
-.testimony2 img{
-    margin-left: 7rem;
-}
-}*/
 
 /*-------------Footer styles--------------------------*/
 
@@ -444,7 +444,7 @@ body {
     padding: 1rem;
     color: #e9ecef;
     text-align: left;
-    font-size: 18px;   
+    font-size: 20px;   
 }
 
 /*-------------------Contact styles----------------*/
@@ -548,67 +548,7 @@ textarea:hover {
 }
 /*-------media queries for about------*/
 
-/*@media (min-width: 280px) and (max-width: 320px) {
-    .about-container{
-        font-size: 12px;
-    }
-}
-@media (min-width: 320px) {
-    .about-container {
-        height: 679px;
-        
-    }
-}
-@media (min-width: 360px) and (max-width: 376px) {
-    .about-container {
-        height: 793px;
-    }
-}
-@media (min-width: 411px) {
-    .about-container {
-        height: 710px;
-    }
-}
-@media (min-width: 414px) {
-    .about-container {
-        height: 689px;
-    }
-}
-@media (min-width: 540px) {
-    .about-container {
-        height: 543px;
-    }
-}
-@media (min-width: 768px) {
-    .about-container {
-        height: 618px;
-    }
-    .about-text {
-       font-size: 18px;
-       
-    }
-    .contact-container {
-        height: 433px;
-    }
-    .contact-input {
-        width: 400px;
-    }
-    .contact-textarea {
-        width: 400px;
-    }
 
-}
-@media (min-width: 1024px) {
-    .about-text {
-       font-size: 18px;
-       margin-left: 2rem;
-       margin-right: 2rem;
-    }
-    .contact-details {
-    padding-top: 3rem;
-    
-}
-}*/
 /*-----------------menu.html-----------------*/
 .menu-header h2 {
     padding: 2rem;
@@ -619,72 +559,6 @@ textarea:hover {
 .menu-images img {
     padding: 2rem;
 }
-/*.menu {
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-.menu-header h2{
-    padding: 1rem;
-    text-transform: uppercase;
-    margin-left: 2rem;
-}
-.menu-text {
-    font-size: 18px;
-    font-weight: 300;
-     padding: 1rem;
-     padding-bottom: 1rem;
-     margin-left: 1rem;
-}
-.menu-items h3{
-    padding: 1rem;
-    margin-left: 1rem;
-    font-size: 22px;
-    font-weight: 500;
-    text-align: center;   
-}
-.menu-images img {
-    width: 200px;
-    height: 200px;
-    padding: 1rem;
-    margin-left: 2rem;
-}
-@media (max-width: 280px) {
-  .menu-header h2 {
-      margin-left: -1rem;
-  } 
-}
-@media (max-width: 360px) {
-  .menu-header h2 {
-      margin-left: 4rem;
-  } 
-}
-@media (min-width: 360px) and (max-width: 414px) {
-  .menu-images {
-      margin-left: 2rem;
-  }  
-}
-@media (min-width: 520px) and (max-width: 760px) {
-  .menu-header h2 {
-      margin-left: 2rem;
-  } 
-  .menu-items h3 {
-      margin-left: 2rem;
-  } 
-  .menu-images img {
-      margin-left: 2rem;
-  }  
-  
-}
-@media (min-width: 1024px) {
-  .menu-header h2 {
-      margin-left: 40rem;
-  } 
-  .menu-text {
-      margin-left: 10%;
-      margin-right: 10%;
-  }
-}*/
-
-
+,menu-images rice
 
 
