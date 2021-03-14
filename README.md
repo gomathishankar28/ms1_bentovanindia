@@ -31,12 +31,12 @@ As a customer, I would like to
 *	Make the payment through bank transfer
 
 ## **User stories**
-*	As a new customer to the website, I want to easily navigate the site, so I can quickly find what I need.
-*	As a new customer to  the website, I want to know what they offer.
-*	As a new customer to the website, I want to take a look at the menu.
-*	As a new customer to the website, I want to know their process in detail .
-*	As a new customer to the website, I would like to know the price of the meal
-*	As a new customer to the website,, I want an easy way to place my order.
+*	As a prospective customer to the website, I want to easily navigate the site, so that I can easily find about the differnt details about the offering.
+*	As a prospective customer to the website, I want to precisely know what they offer so that I have enough infromation about the lunch deivery service.
+*	As a new customer to the website, I want to take a look at the menu so that I know the contents of my lunch box.
+*	As a customer to the website, I want to know the ordering process in detail so that I do not need to call them to know the same.
+*	As a customer to the website, I would like to know the price of the meal so that I know my lunch budget for the week.
+*	As a prospective customer to the website,, I want an easy way to place my order so that I can place my repeat orders quickly.
 
 ## **UX**
 
@@ -45,18 +45,21 @@ As a customer, I would like to
 **The ideal client for this business is:**
 *	English speaking.
 *	Has an infrastructure for a home kitchen
-*	Has a team of at least 4 people to work for the kitchen
+*	Has a team of at least 4 people to work for in the kitchen.
+*   Is proficient in cooking authentic North-Indian cuisine.
+*   Has the resources to deliver food in/ around Eindhoven centrum & High tech campus.
 *	Lives in the Eindhoven.
 
 ### **Visitors to this website are searching for:**
 *	An homemade  wholesome gluten free budget lunch to be delivered near their workplace
-*	Make weekly orders.
+*	A glimpse at the menu for the week before placing their order.
+*   A lunch delivery service that has a fixed subscription fee for a week.
+*   An option in the website to place an order.
     
 ### **This Website  is the best way to help them achieve these things because:**
-*	Most of the home kitchen which deliver lunch boxes at door step are unorganized.
-*	Most of the home kitchen receive orders via phone calls or DM’s which can be easily messed up.
-*	Most of the home kitchen receive  enquiry phone calls for information about their location, pick up points and menu which
-        can be avoided by creating a website and having all these information there.
+*	Most of the home kitchens which deliver lunch boxes at door step are nacent and  unorganized.
+*	Similar delivery services receive orders via phone calls or DM’s which can be source for human errors.
+*	Most of the home kitchens receive enquiries through phone calls for information about their location, pick up points and menu which can be avoided by creating a website and having a single source of information.
 
 ## **Wireframe mockups**
 *	[Home](https://github.com/gomathishankar28/ms1_bentovanindia/tree/master/assets/images/wireframes/wireframes_bvi.pdf)
@@ -75,12 +78,12 @@ The Home page features four sections areas apart from the header and footer.
 The first section (call out section) features a hero image which highlights the spices of India. Over which there is a jumbotron with a tag line.
 It also has an “Order now” button on the background image for ease of use for regular customers. 
 
-The second section (Features Section) - "Why BVI ?" talks about “why someone should try our Kitchen”. This section is showcased in the form of 6 cards highlighting the features
+The second section (Features Section) - "Why BVI ?" talks about BVI's value proposition or “why someone should try our Kitchen”. This section is showcased in the form of 6 cards highlighting the features
 using icons and text.
 
 The third section(Process Section) talks about the step by step  Process of how things are done. This is explained in 2 columns with images and text.
 
-The last section(Testimonials) showcases a couple of testimony.
+The last section(Testimonials) showcases 3 testimonies.
 
 ### **About** 
 The About page features 2 sections .
@@ -96,8 +99,8 @@ and a submit button in the second column.
 
 
 ### **Menu**
-This page features a gallery of our menu items categorized according to its nutrient value. As Indians believe a combination of carbohydrates, 
-proteins, vitamins and fiber form a well-balanced Wholesome meal, this page show cases items from  each category. 
+This page features a gallery of our menu items categorized according to its nutrient composition. As Indian cusine believes a combination of carbohydrates, 
+proteins, vitamins and fiber to form a well-balanced Wholesome meal, this page show cases items from  each category. 
 It showcases 4 pictures under each category. 
   
 ### **Order**
@@ -112,7 +115,7 @@ the order will be confirmed via watsapp to them.
 
 *	**Brand Name**  - Exists on every page . Clicking the Title  returns users to the home page as they would expect.
 
-*	**Navigation Bar** - Exists on every page and allows all users to easily navigate all the website's pages and find what they are looking for quickly.
+*	**Navigation Bar** - Exists on every page and allows all users to easily navigate all the website's pages and find what they are looking for quickly. It will also highlight the sub-menu that the customer is in.
 
 *	**Footer Copyright Info** - Exists on every page and protects business copyright.
 
@@ -126,7 +129,7 @@ the order will be confirmed via watsapp to them.
 
 *	**About Page** – Allows all Visitors to know about their inspiration.
 
-*	**Menu Page** - Allows all visitors to the website to view thumbnail images of the menu items they offer.
+*	**Menu Page** - Allows all visitors to the website to view thumbnail images of the menu items in offer.
 
 *	**Contact**  - Allows customers to view their contact and location details and a contact form to send any messages or feedback.
 
@@ -246,8 +249,8 @@ Testing information yet to be done.
 	
 ### **Acknowledgements**
     
-* **My mentor: Nishant kumar** Ijege for continuous and helpful feedback throughout the project.
+* **My mentor: Nishant kumar** who made me understand the use of bootstrap grid class and css variables by providing me with reference documents and also by giving lot of other useful tips to improve.
 * **The Slack community** of Code Institute for feedback.
-* **My partner Shankar** for creating the text for features and about page..
+* **My partner Shankar** for creating the text content for features and about page.
 
 

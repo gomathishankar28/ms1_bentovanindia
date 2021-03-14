@@ -8,17 +8,16 @@ body {
     padding: 0;
     background: transparent;
     font-family: 'Akaya Telivigala', cursive, sans-serif;
-    font-weight: 300;
-    font-size: 18px;
+    font-size: 20px;
+    
 }
 
 /*------title and nav bar styles----------------------*/
-.navbar {
+/*.navbar {
     padding: 0;
     margin-left: 0!important;
     border: 0;
-    /*background-color: #faba03!important;*/
-}
+}*/
 .bg-navbar {
    background-color: #faba03!important; 
    color: black!important;
@@ -40,6 +39,45 @@ body {
 .nav-link:hover {
     background-color: black;
     color: #fff!important;
+}
+/*-----------media queries for Nav bar-------*/
+@media (min-width: 280px) {
+    .toggler-nav {
+    margin-left: -1rem;
+}
+.toggler-btn {
+        margin-left: -0.5rem;
+    }
+}
+@media (min-width: 320px) {
+    .toggler-nav {
+    margin-left: 0;
+}
+.toggler-btn {
+        margin-left: 0;
+    }
+}
+@media (min-width: 360px){
+    .toggler-nav {
+    margin-left: 1rem;
+}
+.toggler-btn {
+        margin-left: 1rem;
+    }
+.brandname {
+        font-size: 20px;
+    }
+    .brandtext {
+        font-size: 18px;   
+    }
+}
+@media (min-width: 375px) {
+    .toggler-nav {
+    margin-left: 1rem;
+}
+.toggler-btn {
+        margin-left: 1rem;
+    }
 }
 
 @media (min-width: 280px) and (max-width: 415px) {
@@ -77,66 +115,51 @@ body {
         padding: 0;
     }
 }
-
-@media (min-width: 1024px) {
-.navright {
-    margin-left: -1rem;
-}  
+@media (min-width: 411px) and (max-width: 415px) {
+    .toggler-btn {
+        margin-left: 0;
+    }
+     .brandname {
+        font-size: 18px;
+    }
+    .brandtext {
+        font-size: 16px;   
+    }
 }
 @media (min-width: 768px) {
 .toggler-nav{
     padding-left: 3rem;
 }  
 .toggler-btn {
-        margin-left: 3rem;
+        margin-left: 10rem;
     }
+.navright {
+    margin-left: 10rem;
 }
-@media (min-width: 280px) {
-    .toggler-nav {
-    margin-left: -1rem;
-}
-.toggler-btn {
-        margin-left: -0.5rem;
-    }
-}
-@media (min-width: 320px) {
-    .toggler-nav {
-    margin-left: 0;
-}
-.toggler-btn {
-        margin-left: 0;
-    }
-}
-@media (min-width: 360px){
-    .toggler-nav {
-    margin-left: 1rem;
-}
-.toggler-btn {
-        margin-left: 1rem;
-    }
-}
-@media (min-width: 375px) and (max-width: 414px) {
-    .toggler-nav {
-    margin-left: 2rem;
-}
-.toggler-btn {
-        margin-left: 2rem;
-    }
-}
-@media (min-width: 411px) and (max-width: 414px) {
-    .toggler-nav {
-    margin-left: rem;
-}
-.toggler-btn {
-        margin-left: 3rem;
-    }
-     .brandname {
-        font-size: 20px;
+.brandname {
+        font-size: 32px;
+        font-weight: 700
     }
     .brandtext {
-        font-size: 18px;   
+        font-size: 24px; 
+        font-weight: 500;  
     }
 }
+@media (min-width: 1024px) {
+.navright {
+    margin-left: -1rem;
+}  
+ .brandname {
+        font-size: 32px;
+        font-weight: 700
+    }
+    .brandtext {
+        font-size: 24px; 
+        font-weight: 500;  
+    }
+}
+
+
 
 
 /*-------------Call out styles--------------------------*/
@@ -206,7 +229,7 @@ body {
     
 }
 .feature-text {
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     color: #212529;
 }
@@ -227,6 +250,10 @@ body {
 }
 .cta-about{
     text-align: center;
+    margin-top: 1rem;
+}
+.cta-about a{
+    font-size: 30px;
 }
 .btn-about {
     margin-bottom: 2rem;
@@ -237,22 +264,7 @@ body {
     color: #212529;
     font-weight: 700;
 }
-@media (min-width: 768px) and (max-width: 1024px) {
-    .row-features {
-        margin: 0.25rem;
-    }
-    .features-column {
-    padding: 0.25rem;
-}
-}
-@media (min-width: 768px) {
-    .feature-text {
-        font-size: 20px;
-    }
-    .cta-about a {
-        font-size: 18px;
-    }
-}
+/*---------media queries for ""Why BVI" ----------*/
 @media (max-width: 280px) {
     .row-features {
         margin: 0.25rem;
@@ -263,6 +275,32 @@ body {
     padding: 0;
 }
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+    .row-features {
+        margin: 0.25rem;
+    }
+    .features-column {
+    padding: 0.25rem;
+}
+    .feature-header {
+        font-size: 30px;
+    }
+    .feature-text {
+        font-size: 30px;
+    }
+    .cta-about a {
+        font-size: 30px;
+    }
+}
+@media (min-width: 1080px) {
+    .feature-text {
+        font-size: 24px;
+    }
+    .cta-about a {
+        font-size: 24px;
+    }
+}
+
 
 /*-------------Our Process styles-------------------*/
 .process-container {
@@ -318,8 +356,24 @@ body {
     height: 250px;
 }
 }
-
-
+@media (min-width: 768px) and (max-width: 1024px) {
+.steps-text {
+    font-size: 30px;
+}
+.steps_desc {
+    font-size: 30px;
+}
+.slide-images { 
+    width: 400px;
+    height: 400px;
+    padding-left: 4rem;
+}
+}
+@media (min-width: 1024px){
+    .slide-images { 
+    padding-left: 8rem;
+}
+}
 
 /*-------------Testimonials--------------------------*/
 .testimonials {
@@ -353,8 +407,15 @@ body {
 .user-details {
     font-weight: 500;
 }
-
-
+/*-----media query for Testimony--------*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    .testimony p {
+        font-size: 30px;
+    }
+    .user-details {
+    font-size: 30px;
+}
+}
 /*-------------Footer styles--------------------------*/
 
 .footer-details {
@@ -364,13 +425,25 @@ body {
 .col-footer {
     margin-top: 1rem;
 }
+
 .footer-ul {
     list-style-type: none;
+    font-size: 20px;  
+}
+.footer-ul i{
+    font-size: 20px;  
+}
+.footer-copyright .footer-social {
+    Padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.col-footer h5 {
+    font-size: 28px;
 }
 .social-links i {
     color: #faba03;
-    font-size: 20px;
-    margin-right: 0.5rem;
+    font-size: 24px;
+    margin-right: 1rem;
 }
 .social-links i:hover {
     transform: scale(1.15); 
@@ -379,11 +452,77 @@ body {
 }
 
 /*--------media query for Footer----------------*/
-@media (min-width: 320px) and (max-width: 350px) {
-    .footer-details {
-        margin-top: 20px;
+@media (max-width: 280px) {
+    .footer-ul {
+        font-size: 16px;
+        padding: 0;
+        margin-left: 10px;
+    }
+    .social-links i {
+        font-size: 18px;
+}
+}
+@media (min-width: 320px) {
+    .footer-ul {
+        margin-left: 15px;
     }
 }
+@media (min-width: 360px) {
+    .footer-ul {
+        margin-left: 25px;
+    }
+}
+@media (min-width: 375px) {
+    .footer-ul {
+        margin-left:60px;
+    }
+}
+@media (min-width: 411px) {
+    .footer-ul {
+        margin-left: 75px;
+    }
+}
+@media (min-width: 414px) {
+    .footer-ul {
+        margin-left: 90px;
+    }
+}
+@media (min-width: 540px) {
+    .footer-ul {
+        margin-left: 100px;
+    }
+}
+@media (min-width: 360px) and (max-width: 540px) {
+    .footer-ul {
+        font-size: 18px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .col-footer h5 {
+        font-size: 34px;
+    }
+    .col-footer h6 {
+        font-size: 30px;
+    }
+    .footer-ul {
+        margin-left: 220px;
+        font-size: 30px;
+    }
+    .social-links i {
+        font-size: 36px;
+    }
+}
+@media (min-width: 1024px) {
+    .footer-ul {
+        margin-left: 0;
+    }
+}
+@media (min-width: 1080px) {
+    .footer-ul {
+        margin-left: 100px;
+    }
+}
+
 
 /*--------Order Now Modal styles--------------------------*/
 .modal-title {
@@ -437,98 +576,110 @@ body {
 .about-us {
     background: rgb(30 0 10 / 50%);
     color: #e9ecef;
-    font-size: 24px;
-    padding-top: 2rem;
+    padding: 2rem;
+    margin: 0 1rem; 
 }
-.about-text {
+.about-header h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.about-text p {
     padding: 1rem;
     color: #e9ecef;
     text-align: left;
     font-size: 20px;   
+    margin: 0 1rem;
+}
+@media (min-width: 320px) and (max-width: 411px) {
+    .about-text {
+        font-size: 22px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .about-text {
+        padding: 2rem;
+        font-size: 34px;
+    }
+}
+@media (min-width: 1080px) {
+    .about-text {
+        padding: 2rem;
+        font-size: 28px;
+    }
 }
 
 /*-------------------Contact styles----------------*/
 .contact-container {
     background-color: rgb(30 0 10 / 66%);
-    color: #fff;
-    font-size: 18px;
-    /*background-position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
-    height: auto;
-    width:100%;
-    padding: 0;
-    margin: 0;
-    border: 0;*/
+    color: #fff;   
 }
-.contact-header {
+.contact_us {
     padding: 2rem;
+    text-align: center;  
 }
-.details-form {
-    padding-bottom: 3rem;
+.contact-header h2 {
+    font-size: 24px;
+    margin-top: 1rem;
+    font-weight: 700; 
+}
+.contact-header h3 {
+    font-size: 24px;
+    font-weight: 500;   
 }
 .contact-details {
-    
-    /*background-color: rgb(30 0 10 / 77%);*/
     text-align: center;
     color: #e9ecef;
-    
+    padding-bottom: 0;  
+    padding-top: 10px; 
 }
-.contact-details p {
-    font-size: 18px;
-  
+.contact-info {
+    color: #e9ecef; 
+    font-size: 22px;  
+    text-align: left;
 }
-.contact-info a {
-    color: #e9ecef;  
+.contact-info a{
+    color: #e9ecef; 
+    font-size: 22px;  
 }
-
 .opening-hours {
     margin-left: 1rem;
-   
 }
 .opening-hours p {
-    font-size: 18px;
-    font-style: Bold;
-    
+    font-size: 20px;
+    font-style: Bold;   
 }
 .contact-form {
     color: #fff;
-    /*background-color: rgb(30 0 10 / 50%);*/
-    padding: 1rem;
-    text-align: center;  
-}
-.contact-form h3 {
-    padding: 1rem;  
+   text-align: center;  
 }
 .contact-input {
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     font-style: Bold;
     width: 250px;
     margin-bottom: 1rem;
     background-color: #f6f1ea;
-    color: #343a40;
-    
+    color: #343a40;  
 }
 .contact-textarea {
     text-align: center;
-    font-size: 14px;
+    font-size: 20px;
     font-style: Bold;
     width: 250px;
     height:100px;
     padding: 1rem;
+    margin-bottom: 1rem;
     background-color: #f6f1ea;
     color: #343a40;
 }
 .contact-button {
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     margin-left: 2rem;
     background-color: #f6f1ea;
     color: #343a40;
+    margin-bottom: 2rem;
     transition: transform .2s;
 }
 .contact-button:hover {
@@ -544,9 +695,49 @@ input[type="email"]:hover {
   box-shadow: 0 0 0 4px rgb(234 165 11 / 83%);
 }
 textarea:hover {
-  box-shadow: 0 0 0 4px rgb(234 165 11 / 83%);;
+  box-shadow: 0 0 0 4px rgb(234 165 11 / 83%);
 }
-/*-------media queries for about------*/
+/*-------media queries for contact------*/
+
+@media(min-width: 540px) and (max-width: 767px){
+    .contact-input {
+        width: 400px; 
+        }
+    .contact-textarea {
+         width: 400px; 
+        }
+}
+@media(min-width: 768px){
+    .contact-header h2 {
+        font-size: 30px;
+    }
+    .contact-header h3 {
+        font-size: 28px;
+        font-style: Bold; 
+    }
+    .contact-info {
+        font-size: 26px;  
+    }
+    .opening-hours p {
+        font-size: 28px;
+        font-style: Bold;   
+    }
+    .contact-info a{
+        font-size: 26px;  
+    }
+    .contact-input {
+        width: 300px; 
+        font-size: 26px;
+        }
+    .contact-textarea {
+         width: 300px; 
+         font-size: 26px;
+        }
+        
+}
+
+
+
 
 
 /*-----------------menu.html-----------------*/
@@ -559,6 +750,8 @@ textarea:hover {
 .menu-images img {
     padding: 2rem;
 }
-,menu-images rice
+.rice {
+    margin-bottom: 2rem;
+}
 
 
