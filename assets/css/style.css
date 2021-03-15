@@ -549,7 +549,7 @@ body {
 /*------------------styles for about.html----------------------*/
 
 .about-container {
-    background-image: url(../images/about-us.jpg);
+    background-image: url(../images/about-us.jpg) fixed;
     background-position: relative;
     background-size: cover;
     background-repeat: no-repeat;
