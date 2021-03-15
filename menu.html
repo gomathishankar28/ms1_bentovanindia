@@ -11,7 +11,7 @@
 </head>
 <body>
     
-     <!----------------------------------Title and Navbar----------------------------------- -->
+    <!----------------------------------Title and Navbar----------------------------------- -->
         <section>
         <nav class="navbar navbar-expand-lg navbar-light bg-dark ml-auto bg-navbar">
 
@@ -242,7 +242,7 @@
                         <h5 class="modal-title" id="cta-modal-title">Order Now</h5>
                         <p class="modal-text1 text-muted" text-style="italic"> Planning for your office lunch has never been so easy....</p>
 			            <p class="modal-text2">Place your order for a week of lunch-ness <emphasis>@ EUR60</emphasis></p>
-                        <hr class="modal-hr">
+                        
                     </div>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <i class="fas fa-times"></i>
@@ -251,24 +251,24 @@
                 <div class="modal-body">
                     <form method="POST" action="https://formdump.codeinstitute.net/" onsubmit="return alert('Thankyou! Your order has been placed successfully.')">
                         <div class="form-group">
-                            <label for="name">Name</label>
+                            <label class="modal-label" for="name">Name</label>
                             <div>
-                                <input type="text" name="fname" class="form-control" id="name" aria-describedby="Name" placeholder="Enter Name" required="">
+                                <input type="text" name="fname" class="form-control modal-input" id="name" aria-describedby="Name" placeholder="Enter Name" required="">
                             </div>
-			    <label for="mobile">Mobile number</label>
+			    <label class="modal-label" for="mobile">Mobile number</label>
                             <div>
-                                <input type="text" name="mobile" class="form-control" id="mobile" aria-describedby="Mobilenumber" placeholder="Enter Mobile number" required="">
+                                <input type="text" name="mobile" class="form-control modal-input" id="mobile" aria-describedby="Mobilenumber" placeholder="Enter Mobile number" required="">
                             </div>
-			   <label for="Email">Email address</label>
+			   <label class="modal-label" for="Email">Email address</label>
                             <div>
-                                <input type="email" name="email" class="form-control" id="Email" aria-describedby="Email" placeholder="Enter email" required="">
+                                <input type="email" name="email" class="form-control modal-input" id="Email" aria-describedby="Email" placeholder="Enter email" required="">
                             </div>
-			  <label for="office-address">Office address</label>
+			  <label class="modal-label" for="office-address">Office address</label>
                             <div>
-                                <input type="text" name="address" class="form-control" id="office-address" aria-describedby="office address" placeholder="Enter office address" required="">
+                                <input type="text" name="address" class="form-control modal-input" id="office-address" aria-describedby="office address" placeholder="Enter office address" required="">
                             </div>
                         </div>
-                        <div class="claim-button">
+                        <div class="claim-button text-center">
                             <button type="submit" class="btn claim-btn btn-dark shadow-none">Submit</button>
                         </div>
                     </form>

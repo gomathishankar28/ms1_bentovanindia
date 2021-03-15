@@ -8,16 +8,9 @@ body {
     padding: 0;
     background: transparent;
     font-family: 'Akaya Telivigala', cursive, sans-serif;
-    font-size: 20px;
-    
+    font-size: 20px;  
 }
-
 /*------title and nav bar styles----------------------*/
-/*.navbar {
-    padding: 0;
-    margin-left: 0!important;
-    border: 0;
-}*/
 .bg-navbar {
    background-color: #faba03!important; 
    color: black!important;
@@ -25,7 +18,6 @@ body {
 .navbar-brand {
     padding-left: 2rem;
 }
-
 .navbar-item {
     margin-right: 15px;      
 }
@@ -42,11 +34,13 @@ body {
 }
 /*-----------media queries for Nav bar-------*/
 @media (min-width: 280px) {
-    .toggler-nav {
-    margin-left: -1rem;
-}
-.toggler-btn {
-        margin-left: -0.5rem;
+    .brandname {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .brandtext {
+        font-size: 12px;   
+        font-weight: 300;
     }
 }
 @media (min-width: 320px) {
@@ -65,10 +59,12 @@ body {
         margin-left: 1rem;
     }
 .brandname {
-        font-size: 20px;
+        font-size: 18px;
+        font-weight: 700;
     }
     .brandtext {
-        font-size: 18px;   
+        font-size: 16px;  
+        font-weight: 500; 
     }
 }
 @media (min-width: 375px) {
@@ -79,16 +75,9 @@ body {
         margin-left: 1rem;
     }
 }
-
 @media (min-width: 280px) and (max-width: 415px) {
     .navbar-brand {
         padding-left: 0.5rem;
-    }
-    .brandname {
-        font-size: 18px;
-    }
-    .brandtext {
-        font-size: 16px;   
     }
     .navright {
         margin-left: 0.5rem;
@@ -115,15 +104,17 @@ body {
         padding: 0;
     }
 }
-@media (min-width: 411px) and (max-width: 415px) {
+@media (min-width: 375px) and (max-width: 414px) {
     .toggler-btn {
         margin-left: 0;
     }
      .brandname {
-        font-size: 18px;
+        font-size: 20px;
+        font-weight: 700;
     }
     .brandtext {
-        font-size: 16px;   
+        font-size: 18px;  
+        font-weight: 500; 
     }
 }
 @media (min-width: 768px) {
@@ -138,7 +129,7 @@ body {
 }
 .brandname {
         font-size: 32px;
-        font-weight: 700
+        font-weight: 700;
     }
     .brandtext {
         font-size: 24px; 
@@ -151,16 +142,13 @@ body {
 }  
  .brandname {
         font-size: 32px;
-        font-weight: 700
+        font-weight: 700;
     }
     .brandtext {
         font-size: 24px; 
         font-weight: 500;  
     }
 }
-
-
-
 
 /*-------------Call out styles--------------------------*/
 .jumbotron-header {
@@ -225,8 +213,7 @@ body {
 }
 .feature-header {
     font-size: 18px;
-    font-weight: 500;
-    
+    font-weight: 500;  
 }
 .feature-text {
     font-size: 18px;
@@ -343,6 +330,7 @@ body {
 .slide-images img:nth-child(3){animation-delay:10s;}
 .slide-images img:nth-child(4){animation-delay:15s;}
 
+/*-----------media queries for "Our Process"------------*/
 @media (min-width: 280px) and (max-width: 415px) {
     .slide-images {
     width: 250px;
@@ -408,6 +396,7 @@ body {
     font-weight: 500;
 }
 /*-----media query for Testimony--------*/
+
 @media (min-width: 768px) and (max-width: 1024px) {
     .testimony p {
         font-size: 30px;
@@ -456,7 +445,7 @@ body {
     .footer-ul {
         font-size: 16px;
         padding: 0;
-        margin-left: 10px;
+        margin-left: 20px;
     }
     .social-links i {
         font-size: 18px;
@@ -557,8 +546,8 @@ body {
     text-transform: uppercase;
 }
 
-/*------------------about.html----------------------*/
-/*------------ about us background-----------------*/
+/*------------------styles for about.html----------------------*/
+
 .about-container {
     background-image: url(../images/about-us.jpg);
     background-position: relative;
@@ -590,6 +579,9 @@ body {
     font-size: 20px;   
     margin: 0 1rem;
 }
+
+/*------------------media queries for about.html----------------------*/
+
 @media (min-width: 320px) and (max-width: 411px) {
     .about-text {
         font-size: 22px;
@@ -606,6 +598,7 @@ body {
         padding: 2rem;
         font-size: 28px;
     }
+    
 }
 
 /*-------------------Contact styles----------------*/
@@ -698,18 +691,92 @@ textarea:hover {
   box-shadow: 0 0 0 4px rgb(234 165 11 / 83%);
 }
 /*-------media queries for contact------*/
-
-@media(min-width: 540px) and (max-width: 767px){
+@media(max-width:280px) {
+    .contact-info {
+        font-size: 18px;  
+        padding-left: 30px;
+        
+    }
+    .opening-hours p {
+        font-size: 18px;
+          
+    }
+    .contact-info a{
+        font-size: 18px;  
+    }
+}
+@media(min-width: 320px) {
+    .contact-info {
+        font-size: 18px; 
+        padding-left: 50px; 
+    }
+    .contact-info a{
+        font-size: 18px;  
+    }
+    .opening-hours p {
+        font-size: 18px;
+          
+    }
+}
+@media(min-width: 360px) and (max-width: 375px) {
+    .contact-info {
+        padding-left: 65px; 
+        font-size: 18px; 
+    }
+    .contact-info a{
+        font-size: 18px;  
+    }
+    .opening-hours p {
+        font-size: 18px;
+          
+    }
+}
+@media(min-width: 411px)  {
+    .contact-info {
+        padding-left: 80px; 
+    }
+    .contact-info a{
+        font-size: 18px;  
+    }
+    .opening-hours p {
+        font-size: 18px;
+          
+    }
+}
+@media(min-width: 414px)  {
+    .contact-info {
+        padding-left: 100px; 
+        font-size: 20px;
+    }
+    .contact-info a{
+        font-size: 20px;  
+    }
+    .opening-hours p {
+        font-size: 20px;
+          
+    }
+}
+@media(min-width: 280px) and (max-width: 540px){
+.contact-details {
+    padding-top: 0; 
+}
+}
+@media(min-width: 540px){
     .contact-input {
         width: 400px; 
         }
     .contact-textarea {
          width: 400px; 
         }
+    .contact-info {
+        padding-left: 140px;
+    }
 }
+
 @media(min-width: 768px){
     .contact-header h2 {
-        font-size: 30px;
+        font-size: 32px;
+    
     }
     .contact-header h3 {
         font-size: 28px;
@@ -717,10 +784,11 @@ textarea:hover {
     }
     .contact-info {
         font-size: 26px;  
+        padding-left: 40px; 
     }
     .opening-hours p {
         font-size: 28px;
-        font-style: Bold;   
+          
     }
     .contact-info a{
         font-size: 26px;  
@@ -735,9 +803,27 @@ textarea:hover {
         }
         
 }
-
-
-
+@media(min-width: 1024px) {
+    .contact-info {
+        padding-left: 95px; 
+    }
+}
+@media(min-width: 1080px) {
+.contact-info {
+        padding-left: 250px;
+        font-size: 24px;
+    }
+    .opening-hours p {
+        font-size: 24px;
+          
+    }
+.contact-input {
+        width: 500px; 
+        }
+    .contact-textarea {
+         width: 500px; 
+        }
+}
 
 
 /*-----------------menu.html-----------------*/
@@ -747,11 +833,56 @@ textarea:hover {
 .menu-items h3 {
     padding: 2rem;
 }
+.menu-text {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.menu-images {
+    margin-left: 10px;
+    margin-right: 10px;
+}
 .menu-images img {
     padding: 2rem;
+    width: 200px;
+    height: 200px;
+    text-align: center;
 }
 .rice {
-    margin-bottom: 2rem;
+    padding-bottom: 2rem;
 }
-
-
+/*--------------media queries for menu.html-----------------*/
+@media (min-width:320px) {
+    .menu-images {
+        padding-left: 10px;
+    }
+}
+@media (min-width:360px) {
+    .menu-images {
+        padding-left: 30px;
+    }
+}
+@media (min-width: 375px) {
+    .menu-images {
+        padding-left: 40px;
+}
+}
+@media (min-width: 411px) {
+    .menu-images {
+    padding-left: 60px;
+}
+}
+@media (min-width: 540px) {
+    .menu-images {
+    padding-left: 60px;
+}
+.menu-images img {
+    
+    width: 300px;
+    height: 300px;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .menu-text {
+        font-size: 24px;
+    }
+}

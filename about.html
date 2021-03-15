@@ -12,7 +12,7 @@
 
 <body>
     
-    <!----------------------------------Title and Navbar----------------------------------- -->
+   <!----------------------------------Title and Navbar----------------------------------- -->
         <section>
         <nav class="navbar navbar-expand-lg navbar-light bg-dark ml-auto bg-navbar">
 
@@ -111,14 +111,14 @@
                     <div class="col-md-6 contact-details"> 
                         <div class="contact-us">
                             <h3 class="contact-header"><u>Contact details</u></h3>
-                            <p class="contact-info"><strong><i class="fas fa-envelope-square"></i>   : contact@bvi.com</strong></p>
-                            <p class="contact-info"><strong><i class="fas fa-phone-square-alt"></i>  : 555-724-1357</strong></p>
-                            <p class="contact-info"><strong><i class="fas fa-map-marker-alt"></i><a href="https://www.google.com/maps/place/Zanddreef+132,+5658+AG+Eindhoven/@51.4473375,5.4047341,17z/data=!3m1!4b1!4m5!3m4!1s0x47c6dbb8a3e8a9e3:0xf4839a2e57485bdc!8m2!3d51.4473375!4d5.4069228">:  Zanddreef 132, Eindhoven</a></strong></p>
+                            <p class="contact-info"><strong><i class="fas fa-envelope-square"></i></strong>   : contact@bvi.com</p>
+                            <p class="contact-info"><strong><i class="fas fa-phone-square-alt"></i></strong>  : 555-724-1357</p>
+                            <p class="contact-info"><strong><i class="fas fa-map-marker-alt"></i></strong><a href="https://www.google.com/maps/place/Zanddreef+132,+5658+AG+Eindhoven/@51.4473375,5.4047341,17z/data=!3m1!4b1!4m5!3m4!1s0x47c6dbb8a3e8a9e3:0xf4839a2e57485bdc!8m2!3d51.4473375!4d5.4069228">:  Zanddreef 132, Eindhoven</a></p>
                         </div>
                         <div class="opening-hours">
                             <h3 class="contact-header"><u>Opening Hours</u></h3>
-                            <p><strong>Mon - Fri:  8 am - 5 pm</strong></p>
-                            <p><strong>We are closed on weekends</strong></p>
+                            <p>Mon - Fri:  8 am - 5 pm</p>
+                            <p>We are closed on weekends</p>
                             
                         </div>
                         </div>  
@@ -234,7 +234,7 @@
                         <h5 class="modal-title" id="cta-modal-title">Order Now</h5>
                         <p class="modal-text1 text-muted" text-style="italic"> Planning for your office lunch has never been so easy....</p>
 			            <p class="modal-text2">Place your order for a week of lunch-ness <emphasis>@ EUR60</emphasis></p>
-                        <hr class="modal-hr">
+                        
                     </div>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <i class="fas fa-times"></i>
@@ -243,24 +243,24 @@
                 <div class="modal-body">
                     <form method="POST" action="https://formdump.codeinstitute.net/" onsubmit="return alert('Thankyou! Your order has been placed successfully.')">
                         <div class="form-group">
-                            <label for="name">Name</label>
+                            <label class="modal-label" for="name">Name</label>
                             <div>
-                                <input type="text" name="fname" class="form-control" id="name" aria-describedby="Name" placeholder="Enter Name" required="">
+                                <input type="text" name="fname" class="form-control modal-input" id="name" aria-describedby="Name" placeholder="Enter Name" required="">
                             </div>
-			    <label for="mobile">Mobile number</label>
+			    <label class="modal-label" for="mobile">Mobile number</label>
                             <div>
-                                <input type="text" name="mobile" class="form-control" id="mobile" aria-describedby="Mobilenumber" placeholder="Enter Mobile number" required="">
+                                <input type="text" name="mobile" class="form-control modal-input" id="mobile" aria-describedby="Mobilenumber" placeholder="Enter Mobile number" required="">
                             </div>
-			   <label for="Email">Email address</label>
+			   <label class="modal-label" for="Email">Email address</label>
                             <div>
-                                <input type="email" name="email" class="form-control" id="Email" aria-describedby="Email" placeholder="Enter email" required="">
+                                <input type="email" name="email" class="form-control modal-input" id="Email" aria-describedby="Email" placeholder="Enter email" required="">
                             </div>
-			  <label for="office-address">Office address</label>
+			  <label class="modal-label" for="office-address">Office address</label>
                             <div>
-                                <input type="text" name="address" class="form-control" id="office-address" aria-describedby="office address" placeholder="Enter office address" required="">
+                                <input type="text" name="address" class="form-control modal-input" id="office-address" aria-describedby="office address" placeholder="Enter office address" required="">
                             </div>
                         </div>
-                        <div class="claim-button">
+                        <div class="claim-button text-center">
                             <button type="submit" class="btn claim-btn btn-dark shadow-none">Submit</button>
                         </div>
                     </form>
