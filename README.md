@@ -184,7 +184,7 @@ the order will be confirmed via watsapp to them.
 
 ## **Testing**
 
-please find the testing document in [Testing.md](https://github.com/gomathishankar28/ms1_bentovanindia/blob/4d3375c2fae3809c6b6840d12ee27826a8c2a48a/Testing.md)
+please find the testing document in [Testing.md](https://github.com/gomathishankar28/ms1_bentovanindia/tree/master/Testing.md)
 
 ## **Deployment**
 

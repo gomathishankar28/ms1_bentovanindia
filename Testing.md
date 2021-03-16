@@ -13,13 +13,10 @@ and CSS was validated with [W3C CSS](https://jigsaw.w3.org/css-validator/) by di
 Results came out as follows
 
 ### **Results from HTML Validator**
-> need an image 
-
-### **Results from W3C Validator**
-> need an image 
+> ![HTML validator Results](https://github.com/gomathishankar28/ms1_bentovanindia/blob/4ccdf0ea188f452b1859e0128781de10ab38bd72/assets/images/HTMLvalidator.jpg?raw=true)
 
 ### *Results from  W3C CSS**
-> need an image
+> ![CSS validator Results](https://github.com/gomathishankar28/ms1_bentovanindia/blob/4ccdf0ea188f452b1859e0128781de10ab38bd72/assets/images/CSSValidator.jpg?raw=true)
 
 ##  **User Stories Testing**
 
@@ -36,23 +33,61 @@ Results came out as follows
 6.	***As a prospective customer to the website,, I want an easy way to place my order so that I can place my repeat orders quickly.***
     > This is acheived by placing a "Order Now" button on the Jumbotron text which is the first section of the Home page for ease of access.
 
-##  ***Functional Testing***
+##  **Functional Testing**
 Functional testing was done by testing induvidual features of the website to see if they meet their intended purpose.
-1. ***Brand-Title***
+1. **Brand-Title**
     > Checked to see if the Click on the Title takes you to the Home page.
-2. ***Navigation Bar***
+2. **Navigation Bar**
     > Checked to see if the navigation links are highlighted according to the active page.At the launch, Home link of the nav bar has to be higlighted
-3. ***Home Page***   
+3. **Home Page**
+    > ***WHY BVI? Section***
+    > * Checked to see if each feature zooms in with a box shadow on Hover.
+
+    > ***Our Process Section***
+    > * Checked to see if the images are displayed in order from step 1 to step 4.
+4.  **About PAge**   
+    > ***Contact us Section***
+    > 1. checked to see if the google map link in contact details is working as expected.
+    > 2. Checked to see if the form is verified for valid inputs before the submit button is clicked.
+    > 3. Checked for "alert box" on click of the Submit button.
+5. **Order Now**
+    > ***Order Now Modal***  
+        > Checked for "alert box" on click of the Submit button.
+
+## **Responsiveness Testing**
+***Devices Testing***
+
+Website was tested using Chrome Dev tools in the following devices to check if the pages are rendered well.The results are satisfying<br>.
+1. Galaxy Fold.
+2. Moto G4
+3. Pixel 2<br>
+4. Pixel 2xl<br>
+5. iphone5<br>
+6. iphone 6/7/8<br>
+7. iphone 6/7/8 plus<br>
+8. iphone x<br>
+ 9. surface Duo<br>
+10. ipad<br>
+11. ipad pro.<br>
+
+***Browser***
+1. Chrome<br>
+2. Edge.
+    
 
     
 ## **Performance Testing**
 
 Performance has been tested using the Lighthouse tool of Google Chrome. The results are shown below.
 
->  ![BentoVanIndia Performance](https://github.com/gomathishankar28/MilestoneProject1/blob/master/readme-images/performance.jpg)
+>  ![Perfomance Results](https://github.com/gomathishankar28/MilestoneProject1/blob/master/images/performance.jpg?raw=true)
 
 ## **Accessibility Testing**
 
 The website's accessibility was also tested using Lighthouse. The result are shown below.
 
->  ![BentoVanIndia Performance](https://github.com/gomathishankar28/MilestoneProject1/blob/master/readme-images/performance.jpg)
+>  ![Accessibility](https://github.com/gomathishankar28/MilestoneProject1/blob/master/images/accessibility.jpg)
+
+## **Best Practices and SEO Results**
+>  ![BestPractices](https://github.com/gomathishankar28/MilestoneProject1/blob/master/images/bestPractices.jpg)
+>  ![SEO](https://github.com/gomathishankar28/MilestoneProject1/blob/master/images/SEO.jpg)

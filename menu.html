@@ -11,16 +11,16 @@
 </head>
 <body>
     
-    <!----------------------------------Title and Navbar----------------------------------- -->
-        <section>
+    <!-- Title and Navbar -->
+        <section id="Header">
         <nav class="navbar navbar-expand-lg navbar-light bg-dark ml-auto bg-navbar">
 
-            <!----------------------------------Brand Title on top left----------------------------------------->
+            <!-- Brand Title on top left -->
             <a class="navbar-brand" href="index.html">
                     <h1 class="brandname">BentoVanIndia</h1>
                     <h5 class="brandtext">A thought from Inside the Box</h5>
             </a>
-            <!---------------------------Navigation menu bar on top right---------------------------------------->
+            <!-- Navigation menu bar on top right -->
      <div class="col toggler-nav">
         <button type="button" class="navbar-toggler toggler-collapsed navbar-toggler-right toggler-btn" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -51,7 +51,7 @@
         <!--./ title and navbar--> 
        
 
-    <!--------Menu.html----------->
+    <!-- Menu.html -->
 <section id="menu">
     <div class="container-fluid menu-container">
         <div class="row">
@@ -64,7 +64,7 @@
             Our Bento contains an item from each of the 4 sections shown below.</p>
     </div>
 </div>
-        <!--------Breads------------->
+        <!-- Breads -->
         <div class="row breads">
             <div class="col menu-items">
                 <h3 class="text-center"> Indian Flat breads </h3>
@@ -84,7 +84,7 @@
                      <img src="assets/images/bread4.jpg" alt="milletbread">
                 </div>
         </div>
-        <!--------Lentils/pulses curry------------->
+        <!-- Lentils/pulses curry -->
         <div class="row lentils">
             <div class="col menu-items">
                 <h3 class="text-center"> Lentils/Pulses curries </h3>
@@ -104,7 +104,7 @@
                      <img src="assets/images/lentil4.jpg" alt="lentil curry">
                 </div>
         </div>
-         <!--------Vegetable curries------------->
+         <!-- Vegetable curries -->
         <div class="row veggies">
             <div class="col menu-items">
                 <h3 class="text-center"> Vegetable curries </h3>
@@ -124,7 +124,7 @@
                      <img src="assets/images/veg3.jpg" alt="veg curry">
                 </div>
         </div>
-          <!--------Rice Varieties------------->
+          <!-- Rice Varieties -->
         <div class="row rice">
             <div class="col menu-items">
                 <h3 class="text-center"> Rice Varieties </h3>
@@ -150,12 +150,12 @@
     </section>
     
     
-    <!--------------------------------------Footer------------------------------------------------------>
+    <!-- Footer -->
     <footer>
         <div class="container-fluid footer-container">
         <div class="row footer-details">
 
-            <!----------------------Copyrgiht---------------->
+            <!-- Copyrgiht -->
 	        <div class="col-md-12 col-lg-4 col-footer">
                 <h5 class="text-center footer-copyright">copyright 2021</h5>
                 <h6 class="text-center"><u>Opening Hours</u><br>
@@ -164,7 +164,7 @@
                 </h6>
             </div>
 
-            <!----------------------Reach out to us---------------->
+            <!-- Reach out to us -->
             <div class="col-md-12 col-lg-4 col-footer">
                 <h5 class="text-center">Reach out to us</h5>
                     <ul class="footer-ul text-left">
@@ -183,7 +183,7 @@
                      </ul>
             </div>
 
-          <!-------------------------Social Links-------------- -->
+          <!-- Social Links -->
 
       <div class="col-md-12 col-lg-4 col-footer">
         <h5 class="text-center footer-social">Follow us</h5>
@@ -229,10 +229,9 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</body>
 
-<!------------------------------------------Modal for OrderNow------------------------------------------------------>
-<!--------------------------Code credit - Bootstrap documentation---------------------------------------------------->
+      <!-- Modal for OrderNow -->
+<!-- Code credit - Bootstrap documentation -->
 
 <div class="modal fade" id="ordernow" tabindex="-1" aria-labelledby="ordernow" style="display: none;" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -240,8 +239,8 @@
                 <div class="modal-header">
                     <div class="text-center">
                         <h5 class="modal-title" id="cta-modal-title">Order Now</h5>
-                        <p class="modal-text1 text-muted" text-style="italic"> Planning for your office lunch has never been so easy....</p>
-			            <p class="modal-text2">Place your order for a week of lunch-ness <emphasis>@ EUR60</emphasis></p>
+                        <p class="modal-text1 text-muted"> Planning for your office lunch has never been so easy....</p>
+			            <p class="modal-text2">Place your order for a week of lunch-ness<span>@ EUR60</span> </p>
                         
                     </div>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -253,11 +252,11 @@
                         <div class="form-group">
                             <label class="modal-label" for="name">Name</label>
                             <div>
-                                <input type="text" name="fname" class="form-control modal-input" id="name" aria-describedby="Name" placeholder="Enter Name" required="">
+                                <input type="text" name="fname" class="form-control modal-input" id="name" aria-describedby="name" placeholder="Enter Name" required="">
                             </div>
 			    <label class="modal-label" for="mobile">Mobile number</label>
                             <div>
-                                <input type="text" name="mobile" class="form-control modal-input" id="mobile" aria-describedby="Mobilenumber" placeholder="Enter Mobile number" required="">
+                                <input type="text" name="mobile" class="form-control modal-input" id="mobile" aria-describedby="mobile" placeholder="Enter Mobile number" required="">
                             </div>
 			   <label class="modal-label" for="Email">Email address</label>
                             <div>
@@ -265,7 +264,7 @@
                             </div>
 			  <label class="modal-label" for="office-address">Office address</label>
                             <div>
-                                <input type="text" name="address" class="form-control modal-input" id="office-address" aria-describedby="office address" placeholder="Enter office address" required="">
+                                <input type="text" name="address" class="form-control modal-input" id="office-address" aria-describedby="office-address" placeholder="Enter office address" required="">
                             </div>
                         </div>
                         <div class="claim-button text-center">
@@ -276,6 +275,11 @@
             </div>
         </div>
     </div>
-    <!--------./modal----->
+    <!--./modal -->
+
+
+</body>
+
+
 
 </html>
