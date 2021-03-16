@@ -1,6 +1,7 @@
 # Demo
 
-![Am I Responsive](https://github.com/gomathishankar28/ms1_bentovanindia/tree/master/assets/images/ami_responsive.jpg)
+![Am I Responsive](https://github.com/gomathishankar28/ms1_bentovanindia/blob/4d3375c2fae3809c6b6840d12ee27826a8c2a48a/assets/images/amiresponsive.png?raw=true)
+
 
 # **Introduction**
 
@@ -183,7 +184,7 @@ the order will be confirmed via watsapp to them.
 
 ## **Testing**
 
-Testing information yet to be done.
+please find the testing document in [Testing.md](https://github.com/gomathishankar28/ms1_bentovanindia/blob/4d3375c2fae3809c6b6840d12ee27826a8c2a48a/Testing.md)
 
 ## **Deployment**
 
