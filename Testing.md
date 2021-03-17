@@ -71,6 +71,8 @@ Functional testing was done by testing induvidual features of the website to see
     11. ipad pro.<br>
 
 ***BrowserTesting***
+
+Website was tested in different browsers and results were satisfying.
 1. Chrome<br>
 2. Edge.
     
@@ -106,7 +108,10 @@ Spelling was checked thoroughly using [W3C Spell Checker](https://www.w3.org/200
 4. Image Slider in "öur process" section were appearing in reverse order.
     >**solution** - Fixed by changing the order of the img:nth-child.
 
-5. There were lot of small issues related to margin ,padding , width and height of the image, font-size etc
+5.  Menu images were hugging in ipad pro.
+    > **solution** - Fixed by changing the Bootstrap grid allocation from col-lg-3 to col-lg-6 col-xl-3.
+
+6. There were lot of small issues related to margin,padding,width,height of the image,font-size etc
     >**solution** - Fixed by adding media queries accordingly.
 
 ## **Known Issues and bugs yet to be Fixed**

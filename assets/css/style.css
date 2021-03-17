@@ -122,6 +122,19 @@ body {
         font-weight: 500; 
     }
 }
+@media (min-width: 540px) and (max-width: 767px) {
+.toggler-nav {
+        width: 60px;
+        height: auto;
+        margin-left: 70px
+    }
+.toggler-btn {
+        margin-left: 70px;
+    }
+.navright {
+    margin-left: 150px;
+}
+}
 @media (min-width: 768px) {
 .toggler-nav{
     padding-left: 3rem;
@@ -284,7 +297,7 @@ body {
         font-size: 30px;
     }
 }
-@media (min-width: 1080px) {
+@media (min-width: 1400px) {
     .feature-text {
         font-size: 24px;
     }
@@ -515,7 +528,7 @@ body {
         margin-left: 0;
     }
 }
-@media (min-width: 1080px) {
+@media (min-width: 1400px) {
     .footer-ul {
         margin-left: 100px;
     }
@@ -602,7 +615,7 @@ body {
         font-size: 34px;
     }
 }
-@media (min-width: 1080px) {
+@media (min-width: 1400px) {
     .about-text {
         padding-bottom: 1rem;
         font-size: 24px;
@@ -817,7 +830,7 @@ textarea:hover {
         padding-left: 95px; 
     }
 }
-@media(min-width: 1080px) {
+@media(min-width: 1400px) {
 .contact-info {
         padding-left: 250px;
         font-size: 24px;
@@ -889,9 +902,23 @@ textarea:hover {
     width: 300px;
     height: 300px;
 }
+
 }
 @media (min-width: 768px) and (max-width: 1024px) {
     .menu-text {
-        font-size: 24px;
+        font-size: 34px;
+    }
+    .menu-header h2 {
+        font-size: 36px;
+        font-weight: 700;
+    }
+    .menu-items h3 {
+        font-size: 34px;
+        font-weight: 500;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .menu-images {
+        padding-left: 90px;
     }
 }
