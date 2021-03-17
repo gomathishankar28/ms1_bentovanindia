@@ -13,13 +13,14 @@ body {
 /*------title and nav bar styles----------------------*/
 .bg-navbar {
    background-color: #faba03!important; 
-   color: black!important;
+   color: rgba(0,0,0,.9);
 }
 .navbar-brand {
     padding-left: 2rem;
 }
 .navbar-item {
-    margin-right: 15px;      
+    margin-right: 15px;  
+      
 }
 .navbar-item a {
     font-size: 20px;  
@@ -29,6 +30,10 @@ body {
     color: #fdf9fd!important;
 }
 .nav-link:hover {
+    background-color: black;
+    color: #fff!important;
+}
+.nav-contact:active {
     background-color: black;
     color: #fff!important;
 }
@@ -599,8 +604,8 @@ body {
 }
 @media (min-width: 1080px) {
     .about-text {
-        padding: 2rem;
-        font-size: 28px;
+        padding-bottom: 1rem;
+        font-size: 24px;
     }
     
 }

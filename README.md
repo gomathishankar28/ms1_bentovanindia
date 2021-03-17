@@ -1,6 +1,6 @@
-# Demo
-
+# **BentoVanIndia Demo** 
 ![Am I Responsive](https://github.com/gomathishankar28/ms1_bentovanindia/blob/4d3375c2fae3809c6b6840d12ee27826a8c2a48a/assets/images/amiresponsive.png?raw=true)
+
 
 
 # **Introduction**
@@ -255,7 +255,7 @@ please find the testing document in [Testing.md](https://github.com/gomathishank
 ### **Acknowledgements**
     
 * **My mentor: Nishant kumar** who made me understand the use of bootstrap grid class and css variables by providing me with reference documents and also by giving lot of other useful tips to improve.
-* **The Slack community** of Code Institute for feedback.
+* **The Slack community** of Code Institute for a peer code review
 * **My partner Shankar** for creating the text content for features and about page.
 
 

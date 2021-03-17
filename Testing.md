@@ -8,15 +8,15 @@ Following testcases were tested as part of smoke testing for which ***Test resul
 5.	To check if the website launches with a home page on all  different devices as per the wireframe. –Tested Pass
 
 ##  **Code Testing**
-Html was validated with [W3C Validator](https://validator.w3.org/) and [HTML Validator] by direct input. 
+Html was validated with [W3C Validator](https://validator.w3.org/) by direct input. 
 and CSS was validated with [W3C CSS](https://jigsaw.w3.org/css-validator/) by direct input. 
 Results came out as follows
 
 ### **Results from HTML Validator**
-> ![HTML validator Results](https://github.com/gomathishankar28/ms1_bentovanindia/blob/4ccdf0ea188f452b1859e0128781de10ab38bd72/assets/images/HTMLvalidator.jpg?raw=true)
+> ![HTML validator Results](https://github.com/gomathishankar28/ms1_bentovanindia/blob/51005227deb2c97f5e8bb83a2d9dd9bbe8bb57ea/assets/images/HTMLvalidator.jpg?raw=true)
 
 ### *Results from  W3C CSS**
-> ![CSS validator Results](https://github.com/gomathishankar28/ms1_bentovanindia/blob/4ccdf0ea188f452b1859e0128781de10ab38bd72/assets/images/CSSValidator.jpg?raw=true)
+> ![CSS validator Results](https://github.com/gomathishankar28/ms1_bentovanindia/blob/51005227deb2c97f5e8bb83a2d9dd9bbe8bb57ea/assets/images/CSSValidator.jpg?raw=true)
 
 ##  **User Stories Testing**
 
@@ -57,37 +57,56 @@ Functional testing was done by testing induvidual features of the website to see
 ## **Responsiveness Testing**
 ***Devices Testing***
 
-Website was tested using Chrome Dev tools in the following devices to check if the pages are rendered well.The results are satisfying<br>.
-1. Galaxy Fold.
-2. Moto G4
-3. Pixel 2<br>
-4. Pixel 2xl<br>
-5. iphone5<br>
-6. iphone 6/7/8<br>
-7. iphone 6/7/8 plus<br>
-8. iphone x<br>
- 9. surface Duo<br>
-10. ipad<br>
-11. ipad pro.<br>
+ Website was tested using Chrome Dev tools in the following devices to check if the pages are rendered well.The results are satisfying<br>
+    1. Galaxy Fold.<br>
+    2. Moto G4<br>
+    3. Pixel 2<br>
+    4. Pixel 2xl<br>
+    5. iphone5<br>
+    6. iphone 6/7/8<br>
+    7. iphone 6/7/8 plus<br>
+    8. iphone x<br>
+    9. surface Duo<br>
+    10. ipad<br>
+    11. ipad pro.<br>
 
-***Browser***
+***BrowserTesting***
 1. Chrome<br>
 2. Edge.
     
-
     
 ## **Performance Testing**
 
 Performance has been tested using the Lighthouse tool of Google Chrome. The results are shown below.
 
->  ![Perfomance Results](https://github.com/gomathishankar28/MilestoneProject1/blob/master/images/performance.jpg?raw=true)
+>  ![Perfomance Results](https://github.com/gomathishankar28/ms1_bentovanindia/blob/51005227deb2c97f5e8bb83a2d9dd9bbe8bb57ea/assets/images/perfomance.jpg?raw=true)
 
 ## **Accessibility Testing**
 
 The website's accessibility was also tested using Lighthouse. The result are shown below.
 
->  ![Accessibility](https://github.com/gomathishankar28/MilestoneProject1/blob/master/images/accessibility.jpg)
+>  ![Accessibility](https://github.com/gomathishankar28/ms1_bentovanindia/blob/51005227deb2c97f5e8bb83a2d9dd9bbe8bb57ea/assets/images/Accessibility.jpg?raw=true)
 
 ## **Best Practices and SEO Results**
->  ![BestPractices](https://github.com/gomathishankar28/MilestoneProject1/blob/master/images/bestPractices.jpg)
->  ![SEO](https://github.com/gomathishankar28/MilestoneProject1/blob/master/images/SEO.jpg)
+>  ![BestPractices](https://github.com/gomathishankar28/ms1_bentovanindia/blob/51005227deb2c97f5e8bb83a2d9dd9bbe8bb57ea/assets/images/bestPractices.jpg?raw=true)
+>  ![SEO](https://github.com/gomathishankar28/ms1_bentovanindia/blob/51005227deb2c97f5e8bb83a2d9dd9bbe8bb57ea/assets/images/SEO.jpg?raw=true?raw=true)
+
+Spelling was checked thoroughly using [W3C Spell Checker](https://www.w3.org/2002/01/spellchecker). The results are satisfying.
+
+## **Issues found and fixed during Coding**
+1. Nav bar was found to be cramped on ipad with all the nav-links expanded.
+    > **Solution** - Fixed by replacing navbar-expand-md with navbar-expand-lg.Reference Bootstrap navbar documentation
+
+2. CTA about button had anchor element inside it which was not allowed as per W3C rules.
+    > **Solution** - Fixed by adding a onclick property to button.Reference stackoverflow.
+
+3. Footer looked cramped on ipad.
+    > **solution** - Fixed by changing the Bootstrap grid allocation from col-md-4 to col-md-12 col-lg-4.
+
+4. Image Slider in "öur process" section were appearing in reverse order.
+    >**solution** - Fixed by changing the order of the img:nth-child.
+
+5. There were lot of small issues related to margin ,padding , width and height of the image, font-size etc
+    >**solution** - Fixed by adding media queries accordingly.
+
+## **Known Issues and bugs yet to be Fixed**
