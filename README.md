@@ -257,5 +257,6 @@ please find the testing document in [Testing.md](https://github.com/gomathishank
 * **My mentor: Nishant kumar** who made me understand the use of bootstrap grid class and css variables by providing me with reference documents and also by giving lot of other useful tips to improve.
 * **The Slack community** of Code Institute for a peer code review
 * **My partner Shankar** for creating the text content for features and about page.
+* **My Family and Friends** who hprovided their honest feedback by testing the website across different devices and different OS.
 
 

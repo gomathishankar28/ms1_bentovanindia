@@ -1,6 +1,13 @@
 /*----------Google font----------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
 
+/*----------------CSS variables-------------------*/
+:root {
+  --yellow: #faba03;
+  --white: #fdf9fd;
+  --black: #333541;
+}
+
 /*------------Generic styles------------------------*/
 body {
     margin: 0;
@@ -12,8 +19,8 @@ body {
 }
 /*------title and nav bar styles----------------------*/
 .bg-navbar {
-   background-color: #faba03!important; 
-   color: rgba(0,0,0,.9);
+   background-color: var(--yellow)!important;
+   color: var(--black)!important;
 }
 .navbar-brand {
     padding-left: 2rem;
@@ -25,18 +32,11 @@ body {
 .navbar-item a {
     font-size: 20px;  
 }
-.active {
-    background-color: black;
-    color: #fdf9fd!important;
+.active,.nav-link:hover  {
+    background-color: var(--black);
+    color: var(--white)!important;
 }
-.nav-link:hover {
-    background-color: black;
-    color: #fff!important;
-}
-.nav-contact:active {
-    background-color: black;
-    color: #fff!important;
-}
+
 /*-----------media queries for Nav bar-------*/
 @media (min-width: 280px) {
     .brandname {
@@ -49,20 +49,14 @@ body {
     }
 }
 @media (min-width: 320px) {
-    .toggler-nav {
+    .toggler-nav,.toggler-btn {
     margin-left: 0;
 }
-.toggler-btn {
-        margin-left: 0;
-    }
 }
 @media (min-width: 360px){
-    .toggler-nav {
+    .toggler-nav,.toggler-btn {
     margin-left: 1rem;
 }
-.toggler-btn {
-        margin-left: 1rem;
-    }
 .brandname {
         font-size: 18px;
         font-weight: 700;
@@ -73,12 +67,9 @@ body {
     }
 }
 @media (min-width: 375px) {
-    .toggler-nav {
+    .toggler-nav,.toggler-btn {
     margin-left: 1rem;
 }
-.toggler-btn {
-        margin-left: 1rem;
-    }
 }
 @media (min-width: 280px) and (max-width: 415px) {
     .navbar-brand {
@@ -110,7 +101,7 @@ body {
     }
 }
 @media (min-width: 375px) and (max-width: 414px) {
-    .toggler-btn {
+    .toggler-btn, .toggler-nav {
         margin-left: 0;
     }
      .brandname {
@@ -126,9 +117,8 @@ body {
 .toggler-nav {
         width: 60px;
         height: auto;
-        margin-left: 70px
     }
-.toggler-btn {
+.toggler-btn,.toggler-nav {
         margin-left: 70px;
     }
 .navright {
@@ -136,9 +126,9 @@ body {
 }
 }
 @media (min-width: 768px) {
-.toggler-nav{
+.toggler-nav {
     padding-left: 3rem;
-}  
+}
 .toggler-btn {
         margin-left: 10rem;
     }
@@ -194,11 +184,14 @@ body {
 .jumbotron {
     background: transparent;
     padding: 0;
-    color: white;
+    color: var(--white);
     
 }
 .jumbotron-btn:hover {
     transform: scale(1.25); /* reference w3schools*/
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 
 }
 @media (min-width: 768px) {
@@ -209,17 +202,17 @@ body {
 
 /*-------------WHY_BVI styles--------------------------*/
 .features-container {
-    background-color: #333541;
+    background-color: var(--black);
 }
 .features-header {
     text-transform: uppercase;
     padding-top: 10px;
-    color: #fdf9fd;
+    color: var(--white);
 }
 .features-header h2 {
     font-size: 28px;
     font-weight: 700;
-    color: #fdf9fd;
+    color: var(--white);
     text-transform: uppercase;
     padding-top: 10px;  
 }
@@ -228,6 +221,7 @@ body {
 }
 .features-column {
     padding: 1rem;
+    
 }
 .feature-header {
     font-size: 18px;
@@ -236,7 +230,7 @@ body {
 .feature-text {
     font-size: 18px;
     text-align: center;
-    color: #212529;
+    color: var(--black);
 }
 .feature {
     display: flex;
@@ -244,14 +238,15 @@ body {
     align-items: center;
     padding: 1.5rem;
     margin: 0 10px 0;
-    background: #faba03;
-    color: #212529;
     box-shadow: 0px 2px 7px rgb(0 0 0 / 15%);
     height: 100%;
 }
 .feature:hover {
-    transform: scale(1.15); /* (code reference from CSS)*/
-    box-shadow: 0 0 0 4px rgb(234 165 11 / 83%);
+    transform: scale(1.05); /* (code reference from CSS)*/
+    box-shadow: 0 0 0 2px rgb(234 165 11 / 83%);
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 .cta-about{
     text-align: center;
@@ -262,22 +257,26 @@ body {
 }
 .btn-about {
     margin-bottom: 2rem;
-    background: #faba03;
+    background: var(--yellow);
 }
 .btn-about {
     text-decoration: none;
-    color: #212529;
+    color: var(--black);
     font-weight: 700;
 }
+.btn-about:hover {
+    transform: scale(1.05); /* (code reference from CSS)*/
+    box-shadow: 0 0 0 2px rgb(234 165 11 / 83%);
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+ 
 /*---------media queries for ""Why BVI" ----------*/
 @media (max-width: 280px) {
-    .row-features {
+    .row-features, .features-column {
         margin: 0.25rem;
         padding: 0;
-}
-.features-column {
-    margin: 0.25rem;
-    padding: 0;
 }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -287,21 +286,12 @@ body {
     .features-column {
     padding: 0.25rem;
 }
-    .feature-header {
-        font-size: 30px;
-    }
-    .feature-text {
-        font-size: 30px;
-    }
-    .cta-about a {
+    .feature-header,.feature-text,.btn-about {
         font-size: 30px;
     }
 }
 @media (min-width: 1400px) {
-    .feature-text {
-        font-size: 24px;
-    }
-    .cta-about a {
+    .feature-text,.btn-about {
         font-size: 24px;
     }
 }
@@ -322,7 +312,7 @@ body {
 .process-steps {
     text-align: left;
     padding: 2rem;
-    color: #212529;
+    color: var(--black);
 }
 
 /* code credit for image Slider from Hyde-Design */
@@ -385,7 +375,7 @@ body {
 
 /*-------------Testimonials--------------------------*/
 .testimonials {
-    background-color: #faba03;
+    background-color: var(--yellow);
 }
 .testimonials-header {
     padding-top: 20px;
@@ -394,7 +384,7 @@ body {
 }
 .testimonials-header h2 { 
     text-transform: uppercase;
-    color: #424355; 
+    color: var(--black); 
     font-size: 24px;
     font-weight: 700;
     text-align: center;
@@ -430,8 +420,8 @@ body {
 /*-------------Footer styles--------------------------*/
 
 .footer-details {
-    background-color: #343a40;
-    color: white;   
+    background-color: var(--black);
+    color: var(--white);   
 }
 .col-footer {
     margin-top: 1rem;
@@ -452,13 +442,17 @@ body {
     font-size: 28px;
 }
 .social-links i {
-    color: #faba03;
+    color: var(--yellow);
     font-size: 24px;
     margin-right: 1rem;
 }
 .social-links i:hover {
     transform: scale(1.15); 
-    box-shadow: 0 0 0 4px rgb(234 165 11 / 83%); /*(code reference W3schools)*/
+    background-color: gray;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 
 }
 
@@ -552,8 +546,8 @@ body {
     
 }
 .modal-text2 span {
-    background-color: black;
-    color: #fff;
+    background-color: var(--black);
+    color: var(--white);
     
 }
 .modal-label {
@@ -626,7 +620,7 @@ body {
 /*-------------------Contact styles----------------*/
 .contact-container {
     background-color: rgb(30 0 10 / 66%);
-    color: #fff;   
+    color: var(--white);   
 }
 .contact_us {
     padding: 2rem;
@@ -664,7 +658,7 @@ body {
     font-weight: Bold;   
 }
 .contact-form {
-    color: #fff;
+    color: var(--white);
    text-align: center;  
 }
 .contact-input {
@@ -674,7 +668,7 @@ body {
     width: 250px;
     margin-bottom: 1rem;
     background-color: #f6f1ea;
-    color: #343a40;  
+    color: var(--black);  
 }
 .contact-textarea {
     text-align: center;
@@ -685,7 +679,7 @@ body {
     padding: 1rem;
     margin-bottom: 1rem;
     background-color: #f6f1ea;
-    color: #343a40;
+    color: var(--black);
 }
 .contact-button {
     text-align: center;
@@ -693,13 +687,16 @@ body {
     font-weight: 600;
     margin-left: 2rem;
     background-color: #f6f1ea;
-    color: #343a40;
+    color: var(--black);
     margin-bottom: 2rem;
     transition: transform .2s;
 }
 .contact-button:hover {
   transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   background-color: rgb(234 165 11 / 83%);
+  transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 input[type="text"]:hover {
   outline: none;
@@ -719,12 +716,9 @@ textarea:hover {
         padding-left: 30px;
         
     }
-    .opening-hours p {
+    .opening-hours p,.contact-info a {
         font-size: 18px;
           
-    }
-    .contact-info a{
-        font-size: 18px;  
     }
 }
 @media(min-width: 320px) {
@@ -732,12 +726,8 @@ textarea:hover {
         font-size: 18px; 
         padding-left: 50px; 
     }
-    .contact-info a{
+    .contact-info a,.opening-hours p {
         font-size: 18px;  
-    }
-    .opening-hours p {
-        font-size: 18px;
-          
     }
 }
 @media(min-width: 360px) and (max-width: 375px) {
@@ -745,37 +735,25 @@ textarea:hover {
         padding-left: 65px; 
         font-size: 18px; 
     }
-    .contact-info a{
+    .contact-info a,.opening-hours p{
         font-size: 18px;  
     }
-    .opening-hours p {
-        font-size: 18px;
-          
-    }
+     
 }
 @media(min-width: 411px)  {
     .contact-info {
         padding-left: 80px; 
     }
-    .contact-info a{
+    .contact-info a,.opening-hours p {
         font-size: 18px;  
-    }
-    .opening-hours p {
-        font-size: 18px;
-          
     }
 }
 @media(min-width: 414px)  {
     .contact-info {
         padding-left: 100px; 
-        font-size: 20px;
     }
-    .contact-info a{
+    .contact-info,.contact-info a,.opening-hours p{
         font-size: 20px;  
-    }
-    .opening-hours p {
-        font-size: 20px;
-          
     }
 }
 @media(min-width: 280px) and (max-width: 540px){
@@ -784,11 +762,8 @@ textarea:hover {
 }
 }
 @media(min-width: 540px){
-    .contact-input {
+    .contact-input,.contact-textarea {
         width: 400px; 
-        }
-    .contact-textarea {
-         width: 400px; 
         }
     .contact-info {
         padding-left: 140px;
@@ -815,15 +790,10 @@ textarea:hover {
     .contact-info a{
         font-size: 26px;  
     }
-    .contact-input {
+    .contact-input,.contact-textarea {
         width: 300px; 
         font-size: 26px;
-        }
-    .contact-textarea {
-         width: 300px; 
-         font-size: 26px;
-        }
-        
+    }    
 }
 @media(min-width: 1024px) {
     .contact-info {
@@ -839,11 +809,8 @@ textarea:hover {
         font-size: 24px;
           
     }
-.contact-input {
+.contact-input,.contact-textarea {
         width: 500px; 
-        }
-    .contact-textarea {
-         width: 500px; 
         }
 }
 
@@ -855,11 +822,7 @@ textarea:hover {
 .menu-items h3 {
     padding: 2rem;
 }
-.menu-text {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.menu-images {
+.menu-text,.menu-images {
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -905,16 +868,14 @@ textarea:hover {
 
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-    .menu-text {
+    .menu-text,.menu-items h3 {
         font-size: 34px;
     }
     .menu-header h2 {
         font-size: 36px;
-        font-weight: 700;
     }
-    .menu-items h3 {
-        font-size: 34px;
-        font-weight: 500;
+    .menu-items h2,.menu-header h3 {
+        font-weight: 700;
     }
 }
 @media (min-width: 1024px) and (max-width: 1200px) {

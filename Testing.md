@@ -72,9 +72,21 @@ Functional testing was done by testing induvidual features of the website to see
 
 ***BrowserTesting***
 
-Website was tested in different browsers and results were satisfying.
+Website was tested in browsers listed below and results were satisfying.
 1. Chrome<br>
-2. Edge.
+2. Edge.<br>
+3. Opera<br>
+4. Safari<br>
+5. Firefox<br>
+
+***Operating System Testing***
+
+Website was tested in different OS listed below and results were satisfying.
+
+1. Windows 10<br>
+2. Mac OS.<br>
+3. iOS.<br>
+4. Android<br>
     
     
 ## **Performance Testing**
@@ -114,4 +126,6 @@ Spelling was checked thoroughly using [W3C Spell Checker](https://www.w3.org/200
 6. There were lot of small issues related to margin,padding,width,height of the image,font-size etc
     >**solution** - Fixed by adding media queries accordingly.
 
+
 ## **Known Issues and bugs yet to be Fixed**
+
