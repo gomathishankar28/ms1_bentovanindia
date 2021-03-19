@@ -1,4 +1,28 @@
-# **BentoVanIndia Demo** 
+# [BentoVanIndia](https://gomathishankar28.github.io/ms1_bentovanindia/)
+
+This is the presentation website for a Home Kitchen that is aiming to deliver vegetarian gluten-free lunch boxes for offices in Eindhoven based on a weekly subscription. BentoVanIndia is an educational project that serves as the **Milestone Project 1** for the **Full-Stack Software Developer** programme powered by **Code Institute**.
+
+## Table of Contents
+  - [Demo](#demo)
+  - [Introduction](#introduction)
+  - [UX](#ux)
+    - [Business Goals](#business-goals)
+    - [User Goals](#user-goals)
+    - [User Stories](#user-stories)
+    - [Scope](#scope)
+    - [Structure](#structure)
+    - [Skeleton](#skeleton)
+    - [Design Choices](#design-choices)
+  - [Features](#features)
+  - [Technologies Used](#technologies-used)
+  - [Testing](#testing)
+  - [Deployment](#deployment)
+  - [Credits](#credits)
+  - [Acknowledgements](#acknowledgements)
+
+## Demo 
+
+ [Link to Website](https://gomathishankar28.github.io/ms1_bentovanindia/) 
 ![Am I Responsive](https://github.com/gomathishankar28/ms1_bentovanindia/blob/4d3375c2fae3809c6b6840d12ee27826a8c2a48a/assets/images/amiresponsive.png?raw=true)
 
 

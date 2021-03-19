@@ -36,8 +36,21 @@ body {
     background-color: var(--black);
     color: var(--white)!important;
 }
+.toggler-btn {
+    margin-bottom: 3px;
+}
 
 /*-----------media queries for Nav bar-------*/
+@media (min-width: 280px) and (max-width: 768px) {
+    .navbar-item {
+        margin-bottom: 3px;
+    }
+}
+@media (min-width: 280px) and (max-width: 415px) {
+    .nav-link {
+       padding-left: 10px!important;
+    }
+}
 @media (min-width: 280px) {
     .brandname {
         font-size: 18px;
@@ -113,9 +126,18 @@ body {
         font-weight: 500; 
     }
 }
-@media (min-width: 540px) and (max-width: 767px) {
+@media(min-width: 540px) and (max-width: 768px) {
+    .btn-order {
+        margin-left: -25px;
+    }
+    .nav-link {
+        padding: 2px 7px 3px!important;
+    }
+    }
+
+@media (min-width: 540px) and (max-width: 768px) {
 .toggler-nav {
-        width: 60px;
+        width: 90px;
         height: auto;
     }
 .toggler-btn,.toggler-nav {
@@ -127,13 +149,13 @@ body {
 }
 @media (min-width: 768px) {
 .toggler-nav {
-    padding-left: 3rem;
+    margin-left: 90px
 }
 .toggler-btn {
-        margin-left: 10rem;
+        margin-left: 170px;
     }
 .navright {
-    margin-left: 10rem;
+    margin-left: 170px;
 }
 .brandname {
         font-size: 32px;
@@ -430,9 +452,10 @@ body {
 .footer-ul {
     list-style-type: none;
     font-size: 20px;  
+    text-align: center;
 }
 .footer-ul i{
-    font-size: 20px;  
+    font-size: 16px;  
 }
 .footer-copyright .footer-social {
     Padding-top: 2rem;
@@ -461,7 +484,10 @@ body {
     .footer-ul {
         font-size: 16px;
         padding: 0;
-        margin-left: 20px;
+        margin-left: 30px;
+    }
+    .footer-ul i {
+        font-size: 14px;
     }
     .social-links i {
         font-size: 18px;
@@ -479,22 +505,22 @@ body {
 }
 @media (min-width: 375px) {
     .footer-ul {
-        margin-left:60px;
+        margin-left:40px;
     }
 }
 @media (min-width: 411px) {
     .footer-ul {
-        margin-left: 75px;
+        margin-left: 60px;
     }
 }
 @media (min-width: 414px) {
     .footer-ul {
-        margin-left: 90px;
+        margin-left: 75px;
     }
 }
 @media (min-width: 540px) {
     .footer-ul {
-        margin-left: 100px;
+        margin-left: 120px;
     }
 }
 @media (min-width: 360px) and (max-width: 540px) {
@@ -510,8 +536,11 @@ body {
         font-size: 30px;
     }
     .footer-ul {
-        margin-left: 220px;
+        margin-left: 190px;
         font-size: 30px;
+    }
+    .footer-ul i {
+        font-size: 24px;
     }
     .social-links i {
         font-size: 36px;
