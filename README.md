@@ -90,12 +90,56 @@ As a customer, I would like to
 *	Similar delivery services receive orders via phone calls or DM’s which can be source for human errors.
 *	Most of the home kitchens receive enquiries through phone calls for information about their location, pick up points and menu which can be avoided by creating a website and having a single source of information.
 
+### __Scope__
+
+* __Functional requirements:__
+	* A Navigation bar to help customer to facilitate the user's experience across the website;
+ 	* An option to order lunch online.
+	* An option to send feedback
+	
+
+* __Content requirements:__
+	* Call to Actions for easy access
+	* Content categorization based on features, process, about, menu and Contact
+	* Use of Text and images to make things easy to understand
+	* Testimonies for marketing.
+
+### __Structure__
+
+The website was designed to be intuitive, learnable and consistent.
+* Interaction design
+	* The interface responds to the user actions as expected. The scroll behaviour is standard and the buttons respond instantly when auctioned.
+	* In order to increase the user's sense of interaction, subtle effects of zooming in, highlighting are used on hovering wherever necessary.
+* Information architecture
+	* The content is organised in sections from top to bottom in order of importance.
+	* The navigation bar is also categorized accordingly.
+
+### __Skeleton__
+
 ## **Wireframe mockups**
 *	[Home](https://github.com/gomathishankar28/ms1_bentovanindia/tree/master/assets/images/wireframes/wireframes_bvi.pdf)
 *	[About](https://github.com/gomathishankar28/ms1_bentovanindia/tree/master/assets/images/wireframes/wireframes_bvi.pdf)
 *	[Menu](https://github.com/gomathishankar28/ms1_bentovanindia/tree/master/assets/images/wireframes/wireframes_bvi.pdf)
 *	[Order](https://github.com/gomathishankar28/ms1_bentovanindia/tree/master/assets/images/wireframes/wireframes_bvi.pdf)
 *   [contact](https://github.com/gomathishankar28/ms1_bentovanindia/tree/master/assets/images/wireframes/wireframes_bvi.pdf) -It is a section in about page. Please refer wireframe in About page.
+ 
+### __Surface__
+* Colors
+    * The color palette dominantly emphasizes the main spice of India being turmeric which is yellow in colour. This is to build some connection
+
+
+* Typography
+    * Two fonts were used for this project, ***Akaya Telivigala', cursive,*** and ***sans-serif*** with a sans-serif  being fallback font. The cursive style of the font are a well-known typography choice, and are particularly popular on the web. Cursive writing fonts can give the website a more personal feel and approach 
+      
+.
+
+* Media
+    * The hero image displays a wide spread of spices of India.
+    * All the other images used throughout the website are relative to our service.
+    * All images have been resized and compressed in order to boost the UX flow.
+
+* Iconography
+    * Icons have been used throughout the website to improve the efficiency of UX.
 
 ## **Features**
 Each page in the website features a responsive navigation bar on the right with conventional placing of Brand Name on the top left.

@@ -18,6 +18,9 @@ body {
     font-size: 20px;  
 }
 /*------title and nav bar styles----------------------*/
+.navbar {
+    align-items: unset;
+}
 .bg-navbar {
    background-color: var(--yellow)!important;
    color: var(--black)!important;
@@ -39,6 +42,7 @@ body {
 .toggler-btn {
     margin-bottom: 3px;
 }
+
 
 /*-----------media queries for Nav bar-------*/
 @media (min-width: 280px) and (max-width: 768px) {
@@ -105,6 +109,9 @@ body {
     .nav-item {
         font-size: 14px;
     }
+    .toggler-btn {
+    margin-top: 7px;
+    }
     .jumbotron-btn {
         font-size: 14px!important;
         font-weight: 300;
@@ -133,9 +140,6 @@ body {
     .nav-link {
         padding: 2px 7px 3px!important;
     }
-    }
-
-@media (min-width: 540px) and (max-width: 768px) {
 .toggler-nav {
         width: 90px;
         height: auto;
@@ -143,20 +147,20 @@ body {
 .toggler-btn,.toggler-nav {
         margin-left: 70px;
     }
-.navright {
-    margin-left: 150px;
+
+.toggler-btn {
+    margin-top: 10px;
 }
 }
 @media (min-width: 768px) {
 .toggler-nav {
-    margin-left: 90px
+    margin-left: 90px;
+    
 }
 .toggler-btn {
-        margin-left: 170px;
+        margin-left: 120px;
     }
-.navright {
-    margin-left: 170px;
-}
+
 .brandname {
         font-size: 32px;
         font-weight: 700;
@@ -165,8 +169,17 @@ body {
         font-size: 24px; 
         font-weight: 500;  
     }
+    .toggler-btn {
+    margin-top: 20px;
+    }
+    .navbar-item {
+        margin-left: 10px;
+    }
 }
 @media (min-width: 1024px) {
+    .navbar-collapse {
+    margin-top: 20px;
+}
 .navright {
     margin-left: -1rem;
 }  
