@@ -24,7 +24,7 @@ This is the presentation website for a Home Kitchen that is aiming to deliver ve
 ## Demo 
 
  [Link to Website](https://gomathishankar28.github.io/ms1_bentovanindia/) 
-![Am I Responsive](https://github.com/gomathishankar28/ms1_bentovanindia/blob/3de4334f190c38a24a5410961834fd88c221d256/assets/images/readme/ami_responsive.jpg?raw=true)
+![Am I Responsive](https://github.com/gomathishankar28/ms1_bentovanindia/blob/3ce15fd3c8d2c7d3bd79dca1888dea9c0b41fbc7/assets/images/readme/amiresponsive.jpg?raw=true)
 
 
 
