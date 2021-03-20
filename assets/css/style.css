@@ -117,8 +117,10 @@ body {
         font-weight: 300;
     }
     .btn {
-        padding: 0;
+        Padding: 0;
     }
+    
+    
 }
 @media (min-width: 375px) and (max-width: 414px) {
     .toggler-btn, .toggler-nav {
@@ -172,9 +174,7 @@ body {
     .toggler-btn {
     margin-top: 20px;
     }
-    .navbar-item {
-        margin-left: 10px;
-    }
+    
 }
 @media (min-width: 1024px) {
     .navbar-collapse {
@@ -191,6 +191,7 @@ body {
         font-size: 24px; 
         font-weight: 500;  
     }
+    
 }
 
 /*-------------Call out styles--------------------------*/
@@ -205,7 +206,7 @@ body {
 }
 
 .callout-container {
-    background-image: url(../images/hero-image2.jpg);
+    background-image: url(../images/home/hero-image2.jpg);
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
@@ -607,7 +608,7 @@ body {
 /*------------------styles for about.html----------------------*/
 
 .about-container {
-    background-image: url(../images/about-us.jpg);
+    background-image: url(../images/about/about-us.jpg);
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;

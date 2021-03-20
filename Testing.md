@@ -1,4 +1,17 @@
 # **Testing**
+
+## Table of Contents
+  - [Smoke Testing](#smoke-testing)
+  - [Code Testing](#code-testing)
+  - [User stories Testing](#user-stories-testing)
+  - [Functional Testing](#functional-testing)
+  - [Responsiveness Testing](#responsiveness-testing)
+  - [Performance Testing](#performance-testing)
+  - [Accessibility Testing](#accessibility-testing)
+  - [Best Practices and SEO Results](#best-practices-and-seo-results)
+  - [Issues found and fixed during Coding](#issues-found-and-fixed-during-coding)
+  
+
 ## **Smoke Testing**
 Following testcases were tested as part of smoke testing for which ***Test results were PASS***
 1.	To  Check if the Website launches with a Home page when given the URL of the site. > Tested Pass
@@ -13,10 +26,10 @@ and CSS was validated with [W3C CSS](https://jigsaw.w3.org/css-validator/) by di
 Results came out as follows
 
 ### **Results from HTML Validator**
-> ![HTML validator Results](https://github.com/gomathishankar28/ms1_bentovanindia/blob/51005227deb2c97f5e8bb83a2d9dd9bbe8bb57ea/assets/images/HTMLvalidator.jpg?raw=true)
+> ![HTML validator Results](https://github.com/gomathishankar28/ms1_bentovanindia/blob/51005227deb2c97f5e8bb83a2d9dd9bbe8bb57ea/assets/images/testing/HTMLvalidator.jpg?raw=true)
 
 ### *Results from  W3C CSS**
-> ![CSS validator Results](https://github.com/gomathishankar28/ms1_bentovanindia/blob/51005227deb2c97f5e8bb83a2d9dd9bbe8bb57ea/assets/images/CSSValidator.jpg?raw=true)
+> ![CSS validator Results](https://github.com/gomathishankar28/ms1_bentovanindia/blob/51005227deb2c97f5e8bb83a2d9dd9bbe8bb57ea/assets/images/testing/CSSValidator.jpg?raw=true)
 
 ##  **User Stories Testing**
 
@@ -93,17 +106,17 @@ Website was tested in different OS listed below and results were satisfying.
 
 Performance has been tested using the Lighthouse tool of Google Chrome. The results are shown below.
 
->  ![Perfomance Results](https://github.com/gomathishankar28/ms1_bentovanindia/blob/51005227deb2c97f5e8bb83a2d9dd9bbe8bb57ea/assets/images/perfomance.jpg?raw=true)
+>  ![Perfomance Results](https://github.com/gomathishankar28/ms1_bentovanindia/blob/51005227deb2c97f5e8bb83a2d9dd9bbe8bb57ea/assets/images/testing/perfomance.jpg?raw=true)
 
 ## **Accessibility Testing**
 
 The website's accessibility was also tested using Lighthouse. The result are shown below.
 
->  ![Accessibility](https://github.com/gomathishankar28/ms1_bentovanindia/blob/51005227deb2c97f5e8bb83a2d9dd9bbe8bb57ea/assets/images/Accessibility.jpg?raw=true)
+>  ![Accessibility](https://github.com/gomathishankar28/ms1_bentovanindia/blob/51005227deb2c97f5e8bb83a2d9dd9bbe8bb57ea/assets/images/testing/Accessibility.jpg?raw=true)
 
 ## **Best Practices and SEO Results**
->  ![BestPractices](https://github.com/gomathishankar28/ms1_bentovanindia/blob/51005227deb2c97f5e8bb83a2d9dd9bbe8bb57ea/assets/images/bestPractices.jpg?raw=true)
->  ![SEO](https://github.com/gomathishankar28/ms1_bentovanindia/blob/51005227deb2c97f5e8bb83a2d9dd9bbe8bb57ea/assets/images/SEO.jpg?raw=true?raw=true)
+>  ![BestPractices](https://github.com/gomathishankar28/ms1_bentovanindia/blob/51005227deb2c97f5e8bb83a2d9dd9bbe8bb57ea/assets/images/testing/bestPractices.jpg?raw=true)
+>  ![SEO](https://github.com/gomathishankar28/ms1_bentovanindia/blob/51005227deb2c97f5e8bb83a2d9dd9bbe8bb57ea/assets/images/testing/SEO.jpg?raw=true?raw=true)
 
 Spelling was checked thoroughly using [W3C Spell Checker](https://www.w3.org/2002/01/spellchecker). The results are satisfying.
 
@@ -123,9 +136,12 @@ Spelling was checked thoroughly using [W3C Spell Checker](https://www.w3.org/200
 5.  Menu images were hugging in ipad pro.
     > **solution** - Fixed by changing the Bootstrap grid allocation from col-lg-3 to col-lg-6 col-xl-3.
 
-6. There were lot of small issues related to margin,padding,width,height of the image,font-size etc
+6.  Navbrand shifts down when the toggler menu collapses.
+    > **Solution** - Fixed by overiding align-items property to unset. Guidance given by Jo - Tutor support.
+
+7. There were lot of small issues related to margin,padding,width,height of the image,font-size etc
     >**solution** - Fixed by adding media queries accordingly.
 
 
-## **Known Issues and bugs yet to be Fixed**
+
 

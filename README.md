@@ -9,10 +9,11 @@ This is the presentation website for a Home Kitchen that is aiming to deliver ve
     - [Business Goals](#business-goals)
     - [User Goals](#user-goals)
     - [User Stories](#user-stories)
+    - [Strategy](#strategy)
     - [Scope](#scope)
     - [Structure](#structure)
     - [Skeleton](#skeleton)
-    - [Design Choices](#design-choices)
+    - [Surface](#surface)
   - [Features](#features)
   - [Technologies Used](#technologies-used)
   - [Testing](#testing)
@@ -23,7 +24,7 @@ This is the presentation website for a Home Kitchen that is aiming to deliver ve
 ## Demo 
 
  [Link to Website](https://gomathishankar28.github.io/ms1_bentovanindia/) 
-![Am I Responsive](https://github.com/gomathishankar28/ms1_bentovanindia/blob/4d3375c2fae3809c6b6840d12ee27826a8c2a48a/assets/images/amiresponsive.png?raw=true)
+![Am I Responsive](https://github.com/gomathishankar28/ms1_bentovanindia/blob/529813709fdc9df3deebbafe42a6e2820030f737/assets/images/readme/amiresponsive.png?raw=true)
 
 
 
@@ -90,56 +91,70 @@ As a customer, I would like to
 *	Similar delivery services receive orders via phone calls or DM’s which can be source for human errors.
 *	Most of the home kitchens receive enquiries through phone calls for information about their location, pick up points and menu which can be avoided by creating a website and having a single source of information.
 
+### __Strategy__
+*  Build brand awareness on Indian lunch option by BVI in Eindhoven.
+
+* Through this website , aim to increase the number of subscriber.
+
+*  Provide an easy option for users to subscribe for weekly lunches
+
+
 ### __Scope__
 
 * __Functional requirements:__
-	* A Navigation bar to help customer to facilitate the user's experience across the website;
- 	* An option to order lunch online.
-	* An option to send feedback
 	
+	* Option to easily subscribe for weekly lunches, online
+	* An option to explore the lunch menu offered for this week
+	* A Navigation bar to guide the user experience across the website;
+ 	* An option to send feedback
+		
 
 * __Content requirements:__
-	* Call to Actions for easy access
-	* Content categorization based on features, process, about, menu and Contact
+	* Focused explanation on the value offered by BVI
+	* Short and clear content on the “order to delivery” customer journey
+	* Different Call to Actions for easy access
+	* Content categorization based on Features, Process, About, Menu and Contact
 	* Use of Text and images to make things easy to understand
-	* Testimonies for marketing.
+	* Brand building through testimonies.
 
 ### __Structure__
 
-The website was designed to be intuitive, learnable and consistent.
+The website was designed to deliver an intuitive experience with a consistent information flow.
 * Interaction design
-	* The interface responds to the user actions as expected. The scroll behaviour is standard and the buttons respond instantly when auctioned.
-	* In order to increase the user's sense of interaction, subtle effects of zooming in, highlighting are used on hovering wherever necessary.
+	* The interface responds to the user actions as expected. The scroll behavior is standard and the buttons respond instantly when actioned.
+	* In order to increase the sense of interaction, subtle effects of zooming in, highlighting and transition effects are used wherever appropriate.
 * Information architecture
-	* The content is organised in sections from top to bottom in order of importance.
+	* The content is organized and segregated into sections from top to bottom
 	* The navigation bar is also categorized accordingly.
+	
 
 ### __Skeleton__
 
 ## **Wireframe mockups**
-*	[Home](https://github.com/gomathishankar28/ms1_bentovanindia/tree/master/assets/images/wireframes/wireframes_bvi.pdf)
-*	[About](https://github.com/gomathishankar28/ms1_bentovanindia/tree/master/assets/images/wireframes/wireframes_bvi.pdf)
-*	[Menu](https://github.com/gomathishankar28/ms1_bentovanindia/tree/master/assets/images/wireframes/wireframes_bvi.pdf)
-*	[Order](https://github.com/gomathishankar28/ms1_bentovanindia/tree/master/assets/images/wireframes/wireframes_bvi.pdf)
-*   [contact](https://github.com/gomathishankar28/ms1_bentovanindia/tree/master/assets/images/wireframes/wireframes_bvi.pdf) -It is a section in about page. Please refer wireframe in About page.
+
+Please find attached Wireframe for all the 3 pages ***Home, About and Menu for Large, medium and Small devices***. 
+***Contact is a part of About page***. Please refer to About Page Wireframe.
+***Order Now is designed as a Modal.***
+
+*	[Wirefame mockups](https://github.com/gomathishankar28/ms1_bentovanindia/tree/master/assets/images/wireframes/wireframes_bvi.pdf)
  
 ### __Surface__
 * Colors
-    * The color palette dominantly emphasizes the main spice of India being turmeric which is yellow in colour. This is to build some connection
-
+    * The color palette chosen, symbolically references to the Indian culture and its emphasis on the color yellow. Traditionally attributed to health and prosperity, this dominant color is chosen to represent a unique spice, turmeric, which is an irreplaceable ingredient in all the Indian curries. This aims to establish a connect with the target Indian clientele and serve as a metaphor for BVI’s offering, just like Turmeric, the Lunch is- Simple, rustic and healthy! 
 
 * Typography
-    * Two fonts were used for this project, ***Akaya Telivigala', cursive,*** and ***sans-serif*** with a sans-serif  being fallback font. The cursive style of the font are a well-known typography choice, and are particularly popular on the web. Cursive writing fonts can give the website a more personal feel and approach 
+    * Two fonts were used for this project, ***Akaya Telivigala', cursive,*** and ***sans-serif*** with a sans-serif  being fallback font. The cursive style fonts are a well-known typography choice, and are particularly popular on the web. Cursive writing fonts can give the website a more personal feel and approach 
       
 .
 
 * Media
-    * The hero image displays a wide spread of spices of India.
+	* The hero image displays a wide range of spices of India
     * All the other images used throughout the website are relative to our service.
     * All images have been resized and compressed in order to boost the UX flow.
 
 * Iconography
     * Icons have been used throughout the website to improve the efficiency of UX.
+
 
 ## **Features**
 Each page in the website features a responsive navigation bar on the right with conventional placing of Brand Name on the top left.
@@ -263,9 +278,9 @@ please find the testing document in [Testing.md](https://github.com/gomathishank
 	1. Log in to GitHub and locate the Milestone-Project-1 Repository.
     2. At the top of the Repository, click on the "Settings" Button on the menu.
     3. Scroll down the Settings page and find the "GitHub Pages" Section.
-	4. Under "Source", click on the dropdown called "None" and select "main" branch.
-	  The page will automatically refresh.
-	5. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+	4. Under "Source", click on the dropdown called "None" and select "main" branch and subsequently choose the next folder as root and click on Save.
+	  The page will automatically refresh.""
+	5. Scroll back down through the page to locate the now published site link In the "GitHub Pages" section, you should see  ""Your site is published at"with the link highlighted in green.
 
 *	**To fork the GitHub Repository**
 
