@@ -130,7 +130,7 @@ The website was designed to deliver an intuitive experience with a consistent in
 
 ### __Skeleton__
 
-## **Wireframe mockups**
+#### **Wireframe mockups**
 
 Please find attached Wireframe for all the 3 pages ***Home, About and Menu for Large, medium and Small devices***. 
 ***Contact is a part of About page***. Please refer to About Page Wireframe.
@@ -144,9 +144,7 @@ Please find attached Wireframe for all the 3 pages ***Home, About and Menu for L
 
 * Typography
     * Two fonts were used for this project, ***Akaya Telivigala', cursive,*** and ***sans-serif*** with a sans-serif  being fallback font. The cursive style fonts are a well-known typography choice, and are particularly popular on the web. Cursive writing fonts can give the website a more personal feel and approach 
-      
-.
-
+            
 * Media
 	* The hero image displays a wide range of spices of India
     * All the other images used throughout the website are relative to our service.
@@ -189,7 +187,7 @@ and a submit button in the second column.
 ### **Menu**
 This page features a gallery of our menu items categorized according to its nutrient composition. As Indian cusine believes a combination of carbohydrates, 
 proteins, vitamins and fiber to form a well-balanced Wholesome meal, this page show cases items from  each category. 
-It showcases 4 pictures under each category. Hovering on image of each category displays the name of the menu item.
+It showcases 4 pictures under each category.Hovering on image of each category displays the name of the menu item.
   
 ### **Order**
 This is created as a Modal which aims to get the details of the the customer placing the order such as Name, Mobile number,
@@ -267,7 +265,7 @@ the order will be confirmed via watsapp to them.
 
 ## **Testing**
 
-please find the testing document in [Testing.md](https://github.com/gomathishankar28/ms1_bentovanindia/tree/master/Testing.md)
+Please find the testing document in [Testing.md](https://github.com/gomathishankar28/ms1_bentovanindia/tree/master/Testing.md)
 
 ## **Deployment**
 

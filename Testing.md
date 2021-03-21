@@ -111,8 +111,7 @@ Performance has been tested using the Lighthouse tool of Google Chrome. The resu
 ## **Accessibility Testing**
 
 The website's accessibility was also tested using Lighthouse. The result are shown below.
-
->  ![Accessibility]https://github.com/gomathishankar28/ms1_bentovanindia/blob/56afc577fd23264012de0ee9b2b1ce1382d7bf3b/assets/images/testing/Accessibility.jpg?raw=true)
+>  ![Accessibility](https://github.com/gomathishankar28/ms1_bentovanindia/blob/56afc577fd23264012de0ee9b2b1ce1382d7bf3b/assets/images/testing/Accessibility.jpg?raw=true)
 
 ## **Best Practices and SEO Results**
 >  ![BestPractices](https://github.com/gomathishankar28/ms1_bentovanindia/blob/56afc577fd23264012de0ee9b2b1ce1382d7bf3b/assets/images/testing/bestPractices.jpg?raw=true)
@@ -145,7 +144,7 @@ Spelling was checked thoroughly using [W3C Spell Checker](https://www.w3.org/200
 ## **Enhancements**
 Initially the menu page was designed to have only the menu items displayed. An improvement to the page was suggested by my mentor Nishant kumar to display the name of the menu item.
 
->**solution** - Added styles to display the name of the menu item on hover of the image.
+>**solution** - Added styles to display the name of the menu item while hovering above the image under each category.
 
 
 
