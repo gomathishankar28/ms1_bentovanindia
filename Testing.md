@@ -142,6 +142,10 @@ Spelling was checked thoroughly using [W3C Spell Checker](https://www.w3.org/200
 7. There were lot of small issues related to margin,padding,width,height of the image,font-size etc
     >**solution** - Fixed by adding media queries accordingly.
 
+## **Enhancements**
+Initially the menu page was designed to have only the menu items displayed. An improvement to the page was suggested by my mentor Nishant kumar to display the name of the menu item.
+
+>**solution** - Added styles to display the name of the menu item on hover of the image.
 
 
 

@@ -189,7 +189,7 @@ and a submit button in the second column.
 ### **Menu**
 This page features a gallery of our menu items categorized according to its nutrient composition. As Indian cusine believes a combination of carbohydrates, 
 proteins, vitamins and fiber to form a well-balanced Wholesome meal, this page show cases items from  each category. 
-It showcases 4 pictures under each category. 
+It showcases 4 pictures under each category. Hovering on image of each category displays the name of the menu item.
   
 ### **Order**
 This is created as a Modal which aims to get the details of the the customer placing the order such as Name, Mobile number,
@@ -227,7 +227,7 @@ the order will be confirmed via watsapp to them.
 
 *	**GDPR compliant pop-up screen** - Allows all new visitors to the website to approve or deny the processing of their personal data. Ensures the business complies with the EU data protection law. - Javascript Needed
 
-*	**A carousel for the Menu page** - This requires a lot of images to be chosen under each category and then further resize all of them and then implement it with a carousel.
+*	**A carousel for Menu** - This requires a lot of images to be chosen under each category and then further resize all of them and then implement it with a carousel.
 
 *	**Detailed Testimony** – To have more testimonies with rating represented in stars under each category like quality of food, delivery, packaging, etc
 
@@ -333,6 +333,8 @@ please find the testing document in [Testing.md](https://github.com/gomathishank
     * [stackoverflow](https://stackoverflow.com/) as a general source.
 
     * [Hyde-Design](https://www.hyde-design.co.uk/) for image slider in "our Process" Section.
+
+    * [makitweb](https://makitweb.com/html-how-to-show-text-above-image-on-hover/) for text on image hover in menu page.
 
 	
 ### **Acknowledgements**
