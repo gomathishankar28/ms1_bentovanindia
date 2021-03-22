@@ -10,6 +10,7 @@
   - [Accessibility Testing](#accessibility-testing)
   - [Best Practices and SEO Results](#best-practices-and-seo-results)
   - [Issues found and fixed during Coding](#issues-found-and-fixed-during-coding)
+  - [Enhancements](#enhancements)
   
 
 ## **Smoke Testing**
@@ -145,6 +146,7 @@ Spelling was checked thoroughly using [W3C Spell Checker](https://www.w3.org/200
 Initially the menu page was designed to have only the menu items displayed. An improvement to the page was suggested by my mentor Nishant kumar to display the name of the menu item.
 
 >**solution** - Added styles to display the name of the menu item while hovering above the image under each category.
+
 
 
 
