@@ -27,7 +27,7 @@ and CSS was validated with [W3C CSS](https://jigsaw.w3.org/css-validator/) by di
 Results came out as follows
 
 ### **Results from HTML Validator**
-> ![HTML validator Results](https://github.com/gomathishankar28/ms1_bentovanindia/blob/56afc577fd23264012de0ee9b2b1ce1382d7bf3b/assets/images/testing/HTMLvalidator.jpg?raw=true)
+> ![HTML validator Results](https://github.com/gomathishankar28/ms1_bentovanindia/blob/dd29a8b2f73d6ecf650e38bc6797d85fc1b82c85/assets/images/testing/HTMLvalidator.jpg?raw=true)
 
 ### *Results from  W3C CSS**
 > ![CSS validator Results](https://github.com/gomathishankar28/ms1_bentovanindia/blob/56afc577fd23264012de0ee9b2b1ce1382d7bf3b/assets/images/testing/CSSValidator.jpg?raw=true)
