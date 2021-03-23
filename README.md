@@ -1,6 +1,6 @@
 # [BentoVanIndia](https://gomathishankar28.github.io/ms1_bentovanindia/)
 
-This is the presentation website for a Home Kitchen that is aiming to deliver vegetarian gluten-free lunch boxes for offices in Eindhoven, a city in Netherlands based on a weekly subscription. BentoVanIndia is an educational project that serves as the **Milestone Project 1** for the **Full-Stack Software Developer** programme powered by **Code Institute**.
+This is a presentation website for a home kitchen delivering vegetarian gluten-free lunches to offices in Eindhoven. This is a city in Netherlands, nicknamed the 'Brainport', where there is a significant flux of Indian expats owing to companies like Philips and ASML that were founded here. This will be a weekly subscription based service. The website for this company- BentoVanIndia, is an educational project that serves as the **Milestone Project 1** for the **Full-Stack Software Developer programme** powered by **Code Institute**.
 
 ## Table of Contents
   - [Demo](#demo)
@@ -30,14 +30,11 @@ This is the presentation website for a Home Kitchen that is aiming to deliver ve
 
 # **Introduction**
 
-BentoVanIndia(BVI) is a home kitchen which delivers home-made, vegetarian and gluten-free lunch in a Bento box to people in Eindhoven-Netherlands. 
-BentoVanIndia offers a subscription based home-food delivery every week day.This Kitchen aims to woo Indian expats who are searching for a simple, home cooked lunch and a price to match. 
-The menu is based on North Indian cuisine.
+BentoVanIndia(BVI) is a home kitchen which delivers home-made, vegetarian and gluten-free lunch in a Bento box to people in Eindhoven-Netherlands. BentoVanIndia offers a subscription based home-food delivery every week day.This Kitchen aims to woo Indian expats who are searching for a simple, home cooked lunch and a price to match. The menu is based on North Indian cuisine.
 
-The Purpose of this website is to leverage on the familiarity of subscription based lunches in India and propose a unique
-offering here in Eindhoven. This site provides information about our value proposition and how the ordering process works.
-It aims to explain comprehensively the menu items and how they contribute to a wholesome and healthy meal.  
-The site also provides a form for the customers to place their weekly-orders.
+The reason to promote this business model in Eindhoven  is due to the presence of a large pool of expats, mostly from Indian origin. This website serves as a platform to bridge between home cooks specialising in Indian cuisine and the expats looking for a viable Indian lunch option during weekdays. Currently, this space is catered by  home cooks through Facebook groups or using whatsapp on adhoc basis and this lacks the transperancy and clarity provided by a website.
+
+The Purpose of this website is to leverage on the familiarity of subscription based lunches in India and propose a unique offering here in Eindhoven. This site provides information about our value proposition and how the ordering process works. It aims to explain comprehensively the menu items and how they contribute to a wholesome and healthy meal.
 
 ## **Business Goals**
 

@@ -70,7 +70,7 @@ body {
 }
 @media (min-width: 320px) {
     .toggler-nav,.toggler-btn {
-    margin-left: 0;
+    margin-left: 10px;
 }
 }
 @media (min-width: 360px){
@@ -137,6 +137,11 @@ body {
     .brandtext {
         font-size: 18px;  
         font-weight: 500; 
+    }
+}
+@media (min-width: 411px) and (max-width: 415px) {
+    .toggler-btn, .toggler-nav {
+        margin-left: 20px;
     }
 }
 @media(min-width: 540px) and (max-width: 768px) {

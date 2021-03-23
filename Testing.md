@@ -35,9 +35,9 @@ Results came out as follows
 ##  **User Stories Testing**
 
 1.  ***As a prospective customer to the website, I want to easily navigate the site, so that I can easily find about the differnt details about the offering.***
-    >   As the Website is launched, On the Top left is the Navigation bar which is categorized to show different details about the website that the customer islooking for. 	
+    >   As the Website is launched, On the Top left is the Navigation bar which is categorized to show different details about the website that the customer is looking for. 	
 2.  ***As a prospective customer to the website, I want to precisely know what they offer so that I have enough infromation about the lunch deivery service.***
-    >   In the Home page, "WHY BVI" section show all the features and specialities that gives customer enough information about their lunch delivery service.
+    >   In the Home page, "WHY BVI" section shows all the features and specialities that gives customer enough information about our lunch delivery service.
 3.	***As a new customer to the website, I want to take a look at the menu so that I know the contents of my lunch box.***
     >  "Menu" Page of the website shows in detail the number of items and the type of items based on nutritional composition of the Bento box being delivered.
 4.	***As a customer to the website, I want to know the ordering process in detail so that I do not need to call them to know the same.***
@@ -59,7 +59,7 @@ Functional testing was done by testing induvidual features of the website to see
 
     > ***Our Process Section***
     > * Checked to see if the images are displayed in order from step 1 to step 4.
-4.  **About PAge**   
+4.  **About Page**   
     > ***Contact us Section***
     > 1. checked to see if the google map link in contact details is working as expected.
     > 2. Checked to see if the form is verified for valid inputs before the submit button is clicked.
