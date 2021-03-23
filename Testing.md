@@ -27,10 +27,10 @@ and CSS was validated with [W3C CSS](https://jigsaw.w3.org/css-validator/) by di
 Results came out as follows
 
 ### **Results from HTML Validator**
-> ![HTML validator Results](https://github.com/gomathishankar28/ms1_bentovanindia/blob/dd29a8b2f73d6ecf650e38bc6797d85fc1b82c85/assets/images/testing/HTMLvalidator.jpg?raw=true)
+> ![HTML validator Results](https://github.com/gomathishankar28/ms1_bentovanindia/blob/e0a217198e887d5830e95666f5260264351b1a31/assets/images/testing/HTMLvalidator.jpg?raw=true)
 
 ### *Results from  W3C CSS**
-> ![CSS validator Results](https://github.com/gomathishankar28/ms1_bentovanindia/blob/56afc577fd23264012de0ee9b2b1ce1382d7bf3b/assets/images/testing/CSSValidator.jpg?raw=true)
+> ![CSS validator Results](https://github.com/gomathishankar28/ms1_bentovanindia/blob/e0a217198e887d5830e95666f5260264351b1a31/assets/images/testing/CSSValidator.jpg?raw=true)
 
 ##  **User Stories Testing**
 
@@ -107,16 +107,16 @@ Website was tested in different OS listed below and results were satisfying.
 
 Performance has been tested using the Lighthouse tool of Google Chrome. The results are shown below.
 
->  ![Perfomance Results](https://github.com/gomathishankar28/ms1_bentovanindia/blob/56afc577fd23264012de0ee9b2b1ce1382d7bf3b/assets/images/testing/perfomance.jpg?raw=true)
+>  ![Perfomance Results](https://github.com/gomathishankar28/ms1_bentovanindia/blob/e0a217198e887d5830e95666f5260264351b1a31/assets/images/testing/perfomance.jpg?raw=true)
 
 ## **Accessibility Testing**
 
 The website's accessibility was also tested using Lighthouse. The result are shown below.
->  ![Accessibility](https://github.com/gomathishankar28/ms1_bentovanindia/blob/56afc577fd23264012de0ee9b2b1ce1382d7bf3b/assets/images/testing/Accessibility.jpg?raw=true)
+>  ![Accessibility](https://github.com/gomathishankar28/ms1_bentovanindia/blob/e0a217198e887d5830e95666f5260264351b1a31/assets/images/testing/Accessibility.jpg?raw=true)
 
 ## **Best Practices and SEO Results**
->  ![BestPractices](https://github.com/gomathishankar28/ms1_bentovanindia/blob/56afc577fd23264012de0ee9b2b1ce1382d7bf3b/assets/images/testing/bestPractices.jpg?raw=true)
->  ![SEO](https://github.com/gomathishankar28/ms1_bentovanindia/blob/56afc577fd23264012de0ee9b2b1ce1382d7bf3b/assets/images/testing/SEO.jpg?raw=true)
+>  ![BestPractices](https://github.com/gomathishankar28/ms1_bentovanindia/blob/e0a217198e887d5830e95666f5260264351b1a31/assets/images/testing/bestPractices.jpg?raw=true)
+>  ![SEO](https://github.com/gomathishankar28/ms1_bentovanindia/blob/e0a217198e887d5830e95666f5260264351b1a31/assets/images/testing/SEO.jpg?raw=true)
 
 Spelling was checked thoroughly using [W3C Spell Checker](https://www.w3.org/2002/01/spellchecker). The results are satisfying.
 
