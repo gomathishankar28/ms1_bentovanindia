@@ -1,6 +1,6 @@
 # [BentoVanIndia](https://gomathishankar28.github.io/ms1_bentovanindia/)
 
-This is the presentation website for a Home Kitchen that is aiming to deliver vegetarian gluten-free lunch boxes for offices in Eindhoven based on a weekly subscription. BentoVanIndia is an educational project that serves as the **Milestone Project 1** for the **Full-Stack Software Developer** programme powered by **Code Institute**.
+This is the presentation website for a Home Kitchen that is aiming to deliver vegetarian gluten-free lunch boxes for offices in Eindhoven, a city in Netherlands based on a weekly subscription. BentoVanIndia is an educational project that serves as the **Milestone Project 1** for the **Full-Stack Software Developer** programme powered by **Code Institute**.
 
 ## Table of Contents
   - [Demo](#demo)
@@ -30,7 +30,7 @@ This is the presentation website for a Home Kitchen that is aiming to deliver ve
 
 # **Introduction**
 
-BentoVanIndia(BVI) is a home kitchen which delivers home-made, vegetarian and gluten-free lunch in a Bento box to people in Eindhoven. 
+BentoVanIndia(BVI) is a home kitchen which delivers home-made, vegetarian and gluten-free lunch in a Bento box to people in Eindhoven-Netherlands. 
 BentoVanIndia offers a subscription based home-food delivery every week day.This Kitchen aims to woo Indian expats who are searching for a simple, home cooked lunch and a price to match. 
 The menu is based on North Indian cuisine.
 
