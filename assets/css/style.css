@@ -71,12 +71,12 @@ body {
 @media (min-width: 320px) {
     .toggler-nav,.toggler-btn {
     margin-left: 10px;
-}
+    }
 }
 @media (min-width: 360px){
     .toggler-nav,.toggler-btn {
     margin-left: 0;
-}
+    }
 .brandname {
         font-size: 18px;
         font-weight: 700;
@@ -90,7 +90,7 @@ body {
 @media (min-width: 375px) {
     .toggler-nav,.toggler-btn {
     margin-left: 1rem;
-}
+    }
 }
 @media (min-width: 280px) and (max-width: 415px) {
     .navbar-brand {
@@ -119,12 +119,7 @@ body {
     .jumbotron-btn {
         font-size: 14px!important;
         font-weight: 300;
-    }
-    /*.btn {
-        Padding: 0 2px;
-    }*/
-    
-    
+    }   
 }
 @media (min-width: 375px) and (max-width: 414px) {
     .toggler-btn, .toggler-nav {
@@ -166,8 +161,7 @@ body {
 @media (min-width: 768px) {
 .toggler-nav {
     margin-left: 120px;
-    
-}
+    }
 .toggler-btn {
         margin-left: 120px;
     }
@@ -183,7 +177,6 @@ body {
     .toggler-btn {
     margin-top: 20px;
     }
-    
 }
 @media (min-width: 1024px) {
     .navbar-collapse {
@@ -201,20 +194,17 @@ body {
         font-size: 24px; 
         font-weight: 500;  
     }
-    
 }
 
 /*-------------Call out styles--------------------------*/
 .jumbotron-header {
     margin-top: 50px;
     font-size: 24px;
-    
 }
 .jumbotron-btn {
    font-weight: 500;
    font-size: 22px;
 }
-
 .callout-container {
     background-image: url(../images/home/hero-image2.jpg);
     position: relative;
@@ -230,16 +220,15 @@ body {
 .jumbotron {
     background: transparent;
     padding: 0;
-    color: var(--white);
-    
+    color: var(--white);  
 }
 .jumbotron-btn:hover {
     transform: scale(1.25); /* reference w3schools*/
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
-
 }
+
 /*-------------media queries for Call out styles--------------------------*/
 @media (min-width: 768px) {
     .jumbotron-header {
@@ -267,8 +256,7 @@ body {
     margin: 1rem;
 }
 .features-column {
-    padding: 1rem;
-    
+    padding: 1rem; 
 }
 .feature-header {
     font-size: 18px;
@@ -324,7 +312,7 @@ body {
     .row-features, .features-column {
         margin: 0.25rem;
         padding: 0;
-}
+    }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
     .row-features {
@@ -332,7 +320,7 @@ body {
     }
     .features-column {
     padding: 0.25rem;
-}
+    }
     .feature-header,.feature-text,.btn-about {
         font-size: 30px;
     }
@@ -392,12 +380,11 @@ body {
     height: 250px;
     margin-bottom: 1rem;
     margin-left: -0.5rem;
-    
-     }
-.slide-images img{ 
+    }
+    .slide-images img{ 
     width: 250px;
     height: 250px;
-}
+    }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
 .steps-text {
@@ -405,8 +392,7 @@ body {
 }
 .steps_desc {
     font-size: 30px;
-    padding-left: 20px;
-    
+    padding-left: 20px;  
 }
 .slide-images { 
     width: 400px;
@@ -462,7 +448,7 @@ body {
     }
     .user-details {
     font-size: 30px;
-}
+    }
 }
 /*-------------Footer styles--------------------------*/
 
@@ -473,7 +459,6 @@ body {
 .col-footer {
     margin-top: 1rem;
 }
-
 .footer-ul {
     list-style-type: none;
     font-size: 20px;  
@@ -501,7 +486,6 @@ body {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-
 }
 
 /*--------media query for Footer----------------*/
@@ -516,7 +500,7 @@ body {
     }
     .social-links i {
         font-size: 18px;
-}
+    }
 }
 @media (min-width: 320px) {
     .footer-ul {
@@ -746,7 +730,7 @@ body {
     transition: transform .2s;
 }
 .contact-button:hover {
-  transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.25); /* (125% zoom) */
   background-color: rgb(234 165 11 / 83%);
   transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -811,9 +795,9 @@ textarea:hover {
     }
 }
 @media(min-width: 280px) and (max-width: 540px){
-.contact-details {
+    .contact-details {
     padding-top: 0; 
-}
+    }
 }
 @media(min-width: 540px){
     .contact-input,.contact-textarea {
@@ -907,13 +891,11 @@ textarea:hover {
 }
 
 .menu-images:hover div{
-     
  width: 125px;
  padding: 8px 15px;
  visibility: visible;
  opacity: 0.7; 
 }
-
 .rice {
     padding-bottom: 2rem;
 }
@@ -931,23 +913,21 @@ textarea:hover {
 @media (min-width: 375px) {
     .menu-images {
         padding-left: 40px;
-}
+    }
 }
 @media (min-width: 411px) {
     .menu-images {
     padding-left: 60px;
-}
+    }
 }
 @media (min-width: 540px) {
     .menu-images {
     padding-left: 60px;
-}
+    }
 .menu-images img {
-    
     width: 300px;
     height: 300px;
-}
-
+    }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
     .menu-text,.menu-items h3 {
