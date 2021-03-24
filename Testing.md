@@ -59,12 +59,18 @@ Functional testing was done by testing induvidual features of the website to see
 
     > ***Our Process Section***
     > * Checked to see if the images are displayed in order from step 1 to step 4.
+
 4.  **About Page**   
     > ***Contact us Section***
     > 1. checked to see if the google map link in contact details is working as expected.
     > 2. Checked to see if the form is verified for valid inputs before the submit button is clicked.
     > 3. Checked for "alert box" on click of the Submit button.
-5. **Order Now**
+
+5.   **Menu Page** 
+        > 1. Checked to see the if the menu items are consistenly displayed across all devices.
+        > 2. Hovering on any item under each category displays the name of the menu item.
+
+6. **Order Now**
     > ***Order Now Modal***  
         > Checked for "alert box" on click of the Submit button.
 
